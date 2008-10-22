@@ -1,0 +1,26 @@
+---
+title: Tom Preston-Werner
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul>
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  
+  <h1>Interviews, Talks, Etc</h1>
+  <ul>
+    <li><span>09 Oct 2008</span> &raquo; <a href="http://www.infoq.com/interviews/preston-werner-powerset-github-ruby">InfoQ: Tom Preston-Werner on Powerset, GitHub, Ruby and Erlang</a></li>
+    <li><span>05 Jul 2008</span> &raquo; <a href="http://www.rubyology.com/podcasts/show/67">Rubyology 65: Powerset Stars 2 of 2<a></li>
+    <li><span>05 Jul 2008</span> &raquo; <a href="http://www.rubyology.com/podcasts/show/66">Rubyology 65: Powerset Stars 1 of 2<a></li>
+    <li><span>13 Jun 2008</span> &raquo; <a href="http://web20show.com/episodes/web20show-ep45-github">Web 2.0 Show: GitHub (Tom Preston-Werner &amp; Chris Wanstrath)</a></li>
+    <li><span>02 Jun 2008</span> &raquo; <a href="http://www.vimeo.com/1104583">Gregg Pollack: Dave Fayram and Tom Preston-Werner at RailsConf</a></li>
+    <li><span>29 May 2008</span> &raquo; <a href="http://en.oreilly.com/rails2008/public/schedule/speaker/2520">RailsConf 08: Two talks</a></li>
+    <li><span>18 Oct 2007</span> &raquo; <a href="http://blog.gravatar.com/2007/10/18/automattic-gravatar/">Gravatar Blog: Automattic Acquires Gravatar</a></li>
+    <li><span>16 Aug 2007</span> &raquo; <a href="http://www.blognewcomb.com/blog/2007/08/powerset_interview_with_tom_pr.html">Steve Newcomb Blog: Interview with Tom Preston-Werner</a></li>
+    <li><span>02 Apr 2005</span> &raquo; <a href="http://joshuaink2006.johnoxton.co.uk/blog/240/seven-and-a-half-questions-for-tom-werner">JoshuaInk: Seven and a half questions for Tom Werner</a></li>
+  </ul>
+</div>
+  

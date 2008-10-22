@@ -62,10 +62,17 @@ table {
 
 #home ul {
   list-style-type: none;
+  margin-bottom: 2em;
 }
+
+  #home ul li {
+    line-height: 1.75em;
+  }
 
   #home ul span {
     color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
   }
 
 /*****************************************************************************/
@@ -88,6 +95,16 @@ table {
   margin-bottom: 2em;
 }
 
-.site .meta {
-  color: #aaa;
-}
+  .site .title a {
+    color: #aaa;
+    text-decoration: none;
+    margin-left: 1em;
+  }
+  
+  .site .title a:hover {
+    color: black;
+  }
+
+  .site .meta {
+    color: #aaa;
+  }
