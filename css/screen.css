@@ -60,16 +60,16 @@ table {
 /*
 /*****************************************************************************/
 
-#home ul {
+ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
 }
 
-  #home ul li {
+  ul.posts li {
     line-height: 1.75em;
   }
 
-  #home ul span {
+  ul.posts span {
     color: #aaa;
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
@@ -140,3 +140,17 @@ table {
       margin-right: -.5em;
       float: right;
     }
+    
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+#related {
+  margin-top: 2em;
+}
+
+  #related h2 {
+    margin-bottom: 1em;
+  }

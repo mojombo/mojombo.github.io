@@ -22,3 +22,11 @@ The second biggest danger with going solo is the loss of motivation. Solipsism m
 
 Your choice of cofounder will affect everything you do in your startup. They'll share every defeat with you and celebrate every success. They'll help you understand your own ideas better by offering a different perspective. They'll be the single most important decision you make during the tenure of your startup, so choose wisely and with extreme care.
 
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    {% for post in related_posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

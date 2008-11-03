@@ -4,14 +4,14 @@ title: Tom Preston-Werner
 
 <div id="home">
   <h1>Blog Posts</h1>
-  <ul>
+  <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
   
   <h1>Interviews, Talks, Etc</h1>
-  <ul>
+  <ul class="posts">
     <li><span>09 Oct 2008</span> &raquo; <a href="http://www.infoq.com/interviews/preston-werner-powerset-github-ruby">InfoQ: Tom Preston-Werner on Powerset, GitHub, Ruby and Erlang</a></li>
     <li><span>11 Jul 2008</span> &raquo; <a href="http://www.rubyology.com/podcasts/show/67">Rubyology 65: Powerset Stars 2 of 2</a></li>
     <li><span>05 Jul 2008</span> &raquo; <a href="http://www.rubyology.com/podcasts/show/66">Rubyology 65: Powerset Stars 1 of 2</a></li>
@@ -25,7 +25,7 @@ title: Tom Preston-Werner
   </ul>
   
   <h1>Open Source Projects</h1>
-  <ul>
+  <ul class="posts">
     <li><a href="http://github.com/mojombo/primer/">Primer:</a> JavaScript based Flash-like API layered on top of Canvas</li>
     <li><a href="http://github.com/mojombo/god/">God:</a> Ruby process monitoring framework with easy extensibility</li>
     <li><a href="http://github.com/mojombo/chronic/">Chronic:</a> Ruby natural language date/time parser</li>

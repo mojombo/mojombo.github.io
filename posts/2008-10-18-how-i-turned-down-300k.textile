@@ -27,3 +27,12 @@ If you want a recipe for restless sleep, I can give you one. Add one part "what 
 I've become pretty good at giving my employers the bad news that I'm leaving the company to go do something cooler. I broke the news to my boss at Powerset on the day the employment offer was due. I told him I was quitting to go work full time on GitHub. Like any great boss, he was bummed, but understanding. He didn't try to tempt me with a bigger bonus or anything. I think deep down he knew I was going to leave. I may have even received a larger incentive to stay than others, on account of my being a flight risk. Those Microsoft managers are crafty, I tell you. They've got retention bonuses down to a science. Well, except when you throw an entrepreneur, the singularity of the business world, into the mix. Everything goes wacky when you've got one of those around.
 
 In the end, just as Indiana Jones could never turn down the opportunity to search for the Holy Grail, I could no less turn down the chance to work for myself on something I truly love, no matter how safe the alternative might be. When I'm old and dying, I plan to look back on my life and say "wow, that was an adventure," not "wow, I sure felt safe."
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    {% for post in related_posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
