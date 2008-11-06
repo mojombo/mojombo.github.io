@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: How to Meet Your Next Cofounder
 ---
 
@@ -22,12 +22,3 @@ This all sounds like a lot of hard work. Maybe you're wondering if it would be b
 The second biggest danger with going solo is the loss of motivation. Solipsism might make you feel important at first, but the constant lack of feedback and the absence of support during tough times can easily lead to a premature end to your adventure. Cofounders are like workout buddies. Just when you think there's no possible way you can do another rep, there they are, rooting you on toward an achievement that wouldn't be possible without them.
 
 Your choice of cofounder will affect everything you do in your startup. They'll share every defeat with you and celebrate every success. They'll help you understand your own ideas better by offering a different perspective. They'll be the single most important decision you make during the tenure of your startup, so choose wisely and with extreme care.
-
-<div id="related">
-  <h2>Related Posts</h2>
-  <ul class="posts">
-    {% for post in related_posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>

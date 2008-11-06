@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Looking back on Selling Gravatar to Automattic
 ---
 
@@ -42,12 +42,3 @@ Four days later, Automattic made their official offer. On September 21st, 2007 w
 I am quite satisfied with the sale to Automattic. Some will say that I should have pursued VC funding. Indeed, I was contacted by several firms but never travelled very far down that road. I always felt like Gravatar was a feature, and I wasn't comfortable building a company on such a tiny foundation. Reinforcing this decision, no viable business model ever coalesced during the time I was building the site. It was also made clear by Toni that Automattic would maintain Gravatar as a separate brand and continue its evolution (instead of just absorbing it into WordPress). This appealed to my ego. Most companies kill or maim everything they acquire, but here was a chance for Gravatar to carry forward with all of Automattic's resources behind it (instead of two measly servers). Part of me just wanted to see what Gravatar could become with time, money, and man-power moving it forward.
 
 Things always seem so clear in retrospect. But it was pride and persistence that kept me in the game long enough to have anything to look back on at all. While the line between horrible mistake and runaway success may be difficult to see, you can still find it if you look hard enough.
-
-<div id="related">
-  <h2>Related Posts</h2>
-  <ul class="posts">
-    {% for post in related_posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
