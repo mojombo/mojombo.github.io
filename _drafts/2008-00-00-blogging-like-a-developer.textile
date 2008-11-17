@@ -1,0 +1,9 @@
+---
+title: Blogging Like a Developer
+---
+
+h1. {{ page.title }}
+
+p(meta). 23 Oct 2008 - San Francisco
+
+- eliminate everything that does not bring value
