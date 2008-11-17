@@ -1,0 +1,32 @@
+---
+layout: post
+title: Blogging Like a Hacker
+---
+
+h1. {{ page.title }}
+
+p(meta). 10 Nov 2008 - San Francisco
+
+Back in 2000, when I thought I was going to be a professional writer, I spent hours a day on LiveJournal doing writing practice with other aspiring poets and authors. Since then I've blogged at three different domain names about web standards, print design, photography, Flash, illustration, information architecture, ColdFusion, package management, PHP, CSS, advertising, Ruby, Rails, and Erlang.
+
+I love writing. I get a kick out of sharing my thoughts with others. The act of transforming ideas into words is an amazingly efficient way to solidify and refine your thoughts about a given topic. But as much as I enjoy blogging, I seem to be stuck in a cycle of quitting and starting over. Before starting the current iteration, I resolved to do some introspection to determine the factors that were leading to this vicious cycle.
+
+On Sunday, October 19th, I sat down in my San Francisco apartment with a glass of apple cider and a clear mind. After a period of reflection, I had an idea. While I'm not specifically trained as an author of prose, I *am* trained as an author of code. What would happen if I approached blogging from a software development perspective? What would that look like?
+
+First, all my writing would be stored in a Git repository. This would ensure that I could try out different ideas and explore a variety of posts all from the comfort of my preferred editor and the command line. I'd be able to publish a post via a simple deploy script or post-commit hook. Complexity should be kept to an absolute minimum, so a static site would be preferable to a dynamic site that required constant maintenance. My blog would need to be easily customizable; coming from a graphic design background means I'll always be tweaking the site's appearance and layout.
+
+
+
+
+
+--
+
+I've been blogging for eight years. Back in 2000, when I thought I was going to be a professional writer, I spent hours on LiveJournal doing writing practice with some of the other LJ denizens I'd befriended. After I came to my senses and refocused on web development, I installed MovableType and blogged extensively about web standards and design practices. MovableType eventually fell out of favor and I migrated everything to WordPress. As I started doing more print design work, code snippets died off and were replaced by illustrative images and diagrams. After discovering Rails, I coauthored a blogging system, shut down my old blog and started writing posts for my company. Upon moving to San Francisco and shutting down that company, it was off to a new domain and a new ruby blogging system called Mephisto. There I wrote almost exclusively about Ruby tricks and news about my open source software.
+
+Over these eight years I've authored hundreds of posts and subsequently lost or misplaced nearly all of them. LiveJournal deleted all of my writing after a period of inactivity. I have archives of my other work scattered across several hard drives, half of which probably won't even spin up anymore. It seems I have some sort of blogging attention deficit disorder. I like to write, but I always end up shoe-horning myself into some tiny niche and then grow weary of the topic. Exacerbating the situation are the blogging systems themselves. I refuse to settle from some cookie cutter site template branded with some company's logo, so I'm forced into hosting my own blogging engine. Inevitably these tend towards complexity and obsolescence. I'm sick of maintaining these systems. I'm sick of losing my writing because it's off in some database that I haven't backed up for months. I'm sick of 
+
+On Sunday, October 19th, I sat down in my San Francisco apartment with a glass of apple cider and decided to start blogging again. But this time, I vowed, things would be different. No more losing data. No more complex blogging engines. No more comments. The question was, how do I do this?
+
+There is static site generator written in Ruby called "webby" that caught my eye about a year ago. The idea is that you construct a "proto-site", consisting of content files, template files, and assets, that will be processed and converted into a static website. Drop this website into Apache and you're done.
+
+This is a great idea, but webby is, by design, very generic. It does very little to help an aspiring blogger deal with the time consuming nuances of creating a competent weblog. 
