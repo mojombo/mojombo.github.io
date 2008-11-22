@@ -1,9 +1,0 @@
----
-title: Please Don't Post This on Reddit
----
-
-h1. {{ page.title }}
-
-p(meta). 23 Oct 2008 - San Francisco
-
-Booyah
