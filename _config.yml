@@ -1,2 +1,2 @@
 markdown: rdiscount
-permalink: pretty
+pygments: true
