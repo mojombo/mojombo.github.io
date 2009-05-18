@@ -160,3 +160,7 @@ Here are some resources that you should follow as your next step. Now, go, and b
 * "Learn Git":http://learn.github.com/
 * "Git Community Book":http://book.git-scm.com/
 * "Git Magic":http://www-cs-students.stanford.edu/~blynn/gitmagic/
+
+--
+
+"Discuss this post on Hacker News":http://news.ycombinator.com/item?id=615308
