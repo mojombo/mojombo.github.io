@@ -31,3 +31,7 @@ By writing your Readme first you give yourself some pretty significant advantage
 * It's a lot simpler to have a discussion based on something written down. It's easy to talk endlessly and in circles about a problem if nothing is ever put to text. The simple act of writing down a proposed solution means everyone has a concrete idea that can be argued about and iterated upon.
 
 Consider the process of writing the Readme for your project as the true act of creation. This is where all your brilliant ideas should be expressed. This document should stand on its own as a testament to your creativity and expressiveness. The Readme should be the single most important document in your codebase; writing it first is the proper thing to do.
+
+--
+
+[Discuss this post on Hacker News](http://news.ycombinator.com/item?id=1627246)
