@@ -39,7 +39,7 @@ I've found Twitter to be an extremely valuable resource for instant feedback. If
 
 People have a tendency to turn to Twitter to bitch about all the little bugs they see on your website, usually appended with the very tiresome "FAIL". These are irksome to read, but added together are worth noticing. Often times these innocent tweets will inform a decision about whether an esoteric bug is worth adding to the short list. We also created a GitHub account on Twitter that our support guy uses to respond to negative tweets. Offering this level of customer service almost always turns a disgruntled customer into a happy one.
 
-If you have an iPhone, I heartily recommend the "Summizer":http://fanzter.com/products/download/summizer app from Mustache, Inc. It makes searching, viewing, and responding to tweets a cinch.
+If you have an iPhone, I heartily recommend the "Summizer":http://fanzter.com/products/download/summizer app from Fanzter, Inc. It makes searching, viewing, and responding to tweets a cinch.
 
 h2. Deploy at Will!
 
