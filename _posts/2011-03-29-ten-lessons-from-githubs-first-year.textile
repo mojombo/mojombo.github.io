@@ -90,3 +90,5 @@ h2. Open Source Whatever You Can
 In order for GitHub to talk to Git repositories, I created the first ever Ruby Git bindings. Eventually, this library become quite complete and we were faced with a choice: Do we open source it or keep it to ourselves? Both approaches have benefits and drawbacks. Keeping it private means that the hurdle for competing Ruby-based Git hosting sites would be higher, giving us an advantage. But open sourcing it would mean that
 
 <b>NOTE: This is where the post ended and remained frozen in carbonite until today. I intend to write a follow up post on our open source philosophy at GitHub in the near future. I'm sure the suspense is killing you!</b>
+
+"Discuss this post on Hacker News":http://news.ycombinator.com/item?id=2384320
