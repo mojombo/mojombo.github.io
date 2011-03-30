@@ -7,7 +7,7 @@ h1. {{ page.title }}
 
 p(meta). 29 Mar 2011 / 29 Dec 2008 - San Francisco
 
-<b>NOTE: This post was written in late Decemeber of 2008, more than two years ago. It has stayed in my drafts folder since then, waiting for the last 2% to be written. Why I never published it is beyond my reckoning, but it serves as a great reminder of how I perceived the world back then. In the time since I wrote this we've grown from four people to twenty-six, settled into an office, installed a kegerator, and still never taken outside funding. In some ways, things have changed a great deal, but in the most important ways, things are still exactly the same. Realizing this puts a big smile on my face.</b>
+<b>NOTE: This post was written in late December of 2008, more than two years ago. It has stayed in my drafts folder since then, waiting for the last 2% to be written. Why I never published it is beyond my reckoning, but it serves as a great reminder of how I perceived the world back then. In the time since I wrote this we've grown from four people to twenty-six, settled into an office, installed a kegerator, and still never taken outside funding. In some ways, things have changed a great deal, but in the most important ways, things are still exactly the same. Realizing this puts a big smile on my face.</b>
 
 The end of the year is a great time to sit down with a glass of your favorite beverage, dim the lights, snuggle up next to the fire and think about what you've learned over the past twelve months.
 
