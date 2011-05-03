@@ -105,6 +105,6 @@ Down $300,000 from Microsoft to go Full-Time on
 GitHub](http://tom.preston-werner.com/2008/10/18/how-i-turned-down-300k.html).
 I think I made the right decision.
 
-Today GitHub has ten employees and more than 730,000 users with over
+Today GitHub has twenty-nine employees and more than 730,000 users with over
 2,000,000 repositories. We're growing fast, and I'm having the time of
 my life!
