@@ -54,7 +54,7 @@ of eigenvectors, Hilbert spaces, and Planck's constant. This was a
 leap I could not make. I like math, but I'm too easily distracted by
 macroscopic reality to make it my profession.
 
-Once I accepted that I would never spend late nights pouring over
+Once I accepted that I would never spend late nights poring over
 bubble chamber printouts at Fermilab, it became obvious that I was
 destined to enter computer science. I started programming in BASIC on
 a TRS-80 that my dad bought from Radio Shack when I was 8 years old.
