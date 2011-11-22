@@ -74,3 +74,5 @@ Rad, how do I get started?
 --------------------------
 
 Easy, just flip that switch on your GitHub repository from private to public and tell the world about your software via your blog, Twitter, Hacker News, and over beers at your local pub. Then sit back, relax, and enjoy being part of something big.
+
+[Discuss this post on Hacker News](http://news.ycombinator.com/item?id=3267432)
