@@ -12,7 +12,7 @@ Two days ago I had the pleasure of speaking at Startup School, a yearly conferen
 
 You can watch the recording of my thirty minute slot courtesy of Justin.tv:
 
-<center><a href="http://www.justin.tv/c3oorg/b/272031754"><img src="http://img.skitch.com/20101018-p9ux9isde8m64ht8wertuytxfd.jpg" /></a></center>
+<center><a href="http://www.justin.tv/startupschool/b/311851423"><img src="http://img.skitch.com/20101018-p9ux9isde8m64ht8wertuytxfd.jpg" /></a></center>
 
 Since I only had about 25 minutes for the talk and 5 minutes for questions, I wanted to expand upon and clarify some of the ideas I introduced during the talk and then make myself available for additional questions. So today (Monday, 18 October 2010) I'll be answering any questions you have via Hacker News:
 
