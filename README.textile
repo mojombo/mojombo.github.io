@@ -1,6 +1,6 @@
 h1. This is the data for my website
 
-The layout and design was created by [Tom Preston-Werner](http://tom.preston-werner.com/). It is automatically transformed by "Jekyll":http://github.com/mojombo/jekyll into a static site. 
+The layout and design was created by "Tom Preston-Werner":http://tom.preston-werner.com/. It is automatically transformed by "Jekyll":http://github.com/mojombo/jekyll into a static site. 
 
 h1. License
 
