@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>CartoDB + Time</title>
+    <link rel="shortcut icon" href="http://cartodb.com/favicon/favicon_32x32.ico" />
+    <link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../lib/cartodb.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="../lib/wax.g.js"></script>
+    <script type="text/javascript" src="../lib/cartodb-gmapsv3.js"></script>
+    <script type="text/javascript" src="../lib/dat.gui.min.js"></script>
+    <script type="text/javascript" src="../lib/underscore-min.js"></script>
+    <script type="text/javascript" src="../lib/backbone.js"></script>
+    <script type="text/javascript" src="../lib/class.js"></script>
+    <script type="text/javascript" src="../lib/backbone.cartodb.js"></script>
+    <script type="text/javascript" src="../src/canvas_tile_layer.js"></script>
+    <script type="text/javascript" src="../src/grid_layer.js"></script>
+    <script type="text/javascript" src="../src/torque.js"></script>
+    <script type="text/javascript">
+    var gui;
+    function initialize() {
+        // initialise the google map
+        var map = new google.maps.Map(document.getElementById('map_canvas'), {
+            center: new google.maps.LatLng(42.358056,-71.1),
+            zoom: 13,
+            mapTypeId:google.maps.MapTypeId.SATELLITE,
+            mapTypeControl:false,
+            minZoom:1,
+            scrollwheel: false,
+            panControl: false,
+            zoomControl: false,
+            scaleControl: false,
+            streetViewControl: false,
+            overviewMapControl: false,
+        });
+
+        var map_style = {};
+        map_style.google_maps_customization_style = [
+            {
+                stylers:[
+                    { invert_lightness:true },
+                    { weight:1 },
+                    { saturation:-100 },
+                    { lightness:-40 }
+                ]
+            },
+            {
+                elementType:"labels",
+                stylers:[
+                    { visibility:"simplified" }
+                ]
+            }
+        ];
+
+        var Soft = function () {
+            this.Soft = function () {
+                map.setMapTypeId(google.maps.MapTypeId.ROADMAP);
+                map.setOptions({styles:map_style.google_maps_customization_style});
+            }
+        }
+
+
+        map.setMapTypeId(google.maps.MapTypeId.ROADMAP);
+        map.setOptions({styles:map_style.google_maps_customization_style});
+
+        var TorqueOptions = {
+            user: "dataeast",
+            table: "work9",
+            column: "datetime",
+            cumulative: false,
+            resolution: 2,
+            steps: 200,
+            fps: 24,
+            fitbounds: false,
+            clock: true,
+            blendmode: 'source-over',
+            trails: true,
+            point_type:'circle',
+            cellsize:2
+        }
+
+        var torque = null;
+        Torque(function (env) {
+            Torque.app = new env.app.Instance();
+            torque = new Torque.app.addLayer(map, TorqueOptions);
+            Torque.env = env;
+        });
+
+    }
+    </script>
+</head>
+<body onload="initialize()">
+    <div id="map_canvas"></div>
+    <div class="torque_time"></div>
+    <a class="cartodb_logo" href="http://www.cartodb.com" target="_blank">CartoDB</a>
+</body>
+</html>
