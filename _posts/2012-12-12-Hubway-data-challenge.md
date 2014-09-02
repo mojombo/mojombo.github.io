@@ -6,6 +6,7 @@ title: Hubway Data Challenge
 [Applied](http://hubwaydatachallenge.org/submission/38/) for [Hubway Data Challenge](http://hubwaydatachallenge.org/) with [Balázs Krich](http://dataeast.co/).
 
 Learned:
+
 * [Tilemill](http://mapbox.com/tilemill/) is good, but you need time and a plan,
 * titles are major on maps,
 * [USGS NED](http://ned.usgs.gov/) and (ASTER)[http://gdem.ersdac.jspacesystems.or.jp/search.jsp] are geil if you go for topographic maps,
