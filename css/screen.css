@@ -195,3 +195,9 @@ ul.posts {
   #related h2 {
     margin-bottom: 1em;
   }
+  
+/* Better styles for embedding GitHub Gists */
+.gist{font-size:12px;line-height:14px;margin-bottom:20px;width:100%}
+.gist pre{font-family:Menlo,Monaco,'Bitstream Vera Sans Mono','Courier New',monospace !important}
+.gist-meta{font-family:Helvetica,Arial,sans-serif;font-size:10px !important}
+.gist-meta a:hover{color:#0e4071 !important}
