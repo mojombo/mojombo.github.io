@@ -22,7 +22,8 @@
 				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
 				'Imagery © <a href="http://cloudmade.com">CloudMade</a>';
 
-		CM_URL = 'http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/{styleId}/256/{z}/{x}/{y}.png';
+		cmUrl = 'http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/{styleId}/256/{z}/{x}/{y}.png';
+		
 	</script>
 </head>
 <body>
@@ -36,7 +37,7 @@
 <!--[if lte IE 8]><link rel="stylesheet" href="http://danzel.github.com/Leaflet.markercluster/dist/MarkerCluster.Default.ie.css" /><![endif]-->
 <script src="http://danzel.github.com/Leaflet.markercluster/dist/leaflet.markercluster-src.js"></script>
 
-<script src="/leaflet/Leaflet/ingatlancom.js" charset="utf-8"></script>
+<script src="/leaflet/leaflet/ingatlancom.js" charset="utf-8"></script>
 
 <script>
 	var cloudmade = new L.TileLayer(CM_URL, {maxZoom: 18, attribution: CM_ATTR, styleId: 997}),
