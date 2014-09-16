@@ -1,0 +1,99 @@
+0	Budapest	33143
+1	I. kerület	658
+2	II. kerület	1893
+3	III. kerület	2637
+4	IV. kerület	1689
+5	V. kerület	831
+6	VI. kerület	1059
+7	VII. kerület	1566
+8	VIII. kerület	2043
+9	IX. kerület	1667
+10	X. kerület	1203
+11	XI. kerület	3339
+12	XII. kerület	1096
+13	XIII. kerület	3820
+14	XIV. kerület	2831
+15	XV. Kerület	1062
+16	XVI. Kerület	630
+17	XVII. Kerület	595
+18	XVIII. Kerület	1196
+19	XIX. Kerület	757
+20	XX. Kerület	984
+21	XXI. Kerület	845
+22	XXII. Kerület	556
+23	XXIII. Kerület	186
+101	Vár	112
+102	Krisztinaváros, Víziváros (Dél)	273
+103	Naphegy, Gellérthegy	273
+201	Víziváros (Észak), Országút	625
+202	Pasarét, Vérhalom	984
+203	Pesthidegkút, Máriaremete	64
+204	Rózsadomb, Törökvész (Dél)	220
+301	Csillaghegy (Kelet), Rómaifürdõ	192
+302	Békásmegyer	458
+303	Óbuda, Kaszásdûlõ	1309
+304	Remetehegy, Testvérhegy	319
+305	Pók utcai ltp	359
+401	Káposztásmegyer	348
+402	Népsziget, Megyer	64
+403	Újpest (Észak)	257
+404	Újpest városközpont, Istvántelek	1020
+501	Belváros, Lipótváros	831
+601	Belsõ-Terézváros	388
+602	Középsõ-Terézváros	440
+603	Külsõ-Terézváros	231
+701	Belsõ-Erzsébetváros	558
+702	Középsõ- és Külsõ-Erzsébetváros	1008
+801	Belsõ-Józsefváros	340
+802	Középsõ-Józsefváros	1423
+803	Tisztviselõtelep, Százados úti lakótelep	280
+901	Belsõ-Ferencváros	323
+902	Középsõ-Ferencváros	769
+903	Külsõ-Ferencváros	299
+904	József Attila lakótelep	276
+1001	Népliget, Gyárdûlõ	354
+1002	Újhegy	297
+1003	Óhegy	426
+1004	Gyakorló utcai lakótelep, Kõbánya-Kertváros	126
+1101	Gellérthegy	410
+1102	Gazdagrét	209
+1103	Lágymányos, Kelenföld	2285
+1104	Sashegy, Sasad	435
+1201	Krisztinaváros, Kissvábhegy	329
+1202	Németvölgy, Mártonhegy	438
+1203	Svábhegy, Zugliget	329
+1301	Újlipótváros	1128
+1302	Fiastyúk utcai, Béke-Tatai úti lakótelep	626
+1303	Angyalföld, Vizafogó	2066
+1401	Alsórákos, Kiszugló	584
+1402	Kacsóh Pongrác úti lakótelep	25
+1403	Herminamezõ, Istvánmezõ	614
+1404	Kerepesi úti, Füredi utcai lakótelep	839
+1405	Törökõr, Vitéztelep	769
+1501	Pestújhely	147
+1502	Újpalota	742
+1503	Rákospalota	173
+1601	Rákosszentmihály, Árpádföld	75
+1602	Cinkota	75
+1603	Mátyásföld	240
+1604	Sashalom	240
+1701	Rákosliget, Rákoscsaba-Újtelep	0
+1702	Rákoshegy	16
+1703	Akadémiaújtelep, Rákoskeresztúr	412
+1704	Rákoscsaba, Rákoskert	167
+1801	Havanna utcai lakótelep	323
+1802	Pestszentlõrinc	459
+1803	Pestszentimre (Dél)	232
+1804	Szent Imre-kertváros, Szemeretelep	182
+1901	Wekerletelep	203
+1902	Kispest városközpont	252
+1903	Kispest	302
+2001	Pesterzsébet városközpont	370
+2002	Gubacsi hídfõi lakótelep	100
+2003	Pacsirtatelep, Gubacsipuszta	514
+2101	Királyerdõ	294
+2102	Csepel	551
+2201	Budafok központ	115
+2202	Nagytétény (Dél), Bartók Béla úti lakótelep	80
+2203	Budatétény, Nagytétény	361
+2301	Soroksár	186

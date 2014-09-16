@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+
+	<title>Leaflet.MarkerCluster 0.1 Released - Leaflet - a JavaScript library for mobile-friendly maps</title>
+
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Leaflet -->
+	<link rel="stylesheet" href="../dist/leaflet.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="../dist/leaflet.ie.css" /><![endif]-->
+	<script src="../dist/leaflet.js"></script>
+
+	
+
+	<script>
+		CM_ATTR = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+				'Imagery © <a href="http://cloudmade.com">CloudMade</a>';
+
+		CM_URL = 'http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/{styleId}/256/{z}/{x}/{y}.png';
+	</script>
+</head>
+<body>
+
+<div id="map" class="map" style="height: 640px"></div>
+
+<link rel="stylesheet" href="http://danzel.github.com/Leaflet.markercluster/dist/MarkerCluster.css" />
+
+<link rel="stylesheet" href="http://danzel.github.com/Leaflet.markercluster/dist/MarkerCluster.Default.css" />
+
+<!--[if lte IE 8]><link rel="stylesheet" href="http://danzel.github.com/Leaflet.markercluster/dist/MarkerCluster.Default.ie.css" /><![endif]-->
+<script src="http://danzel.github.com/Leaflet.markercluster/dist/leaflet.markercluster-src.js"></script>
+
+<script src="http://dl.dropbox.com/u/1026064/leaflet/Leaflet/pois.js" charset="utf-8"></script>
+
+<script src="http://dl.dropbox.com/u/1026064/leaflet/Leaflet/properties.js" charset="utf-8"></script>
+
+<script>
+	var cloudmade = new L.TileLayer(CM_URL, {maxZoom: 18, attribution: CM_ATTR, styleId: 997}),
+		latlng = new L.LatLng(47.4762925, 19.0374148);
+
+	var map = new L.Map('map', {center: latlng, zoom: 13, layers: [cloudmade]});
+
+	map.attributionControl.addAttribution("Points &copy 2012 LINZ");
+
+	var markers = new L.MarkerClusterGroup();
+
+	for (var i = 0; i < pois.length; i++) {
+		var a = pois[i];
+		var title = 'poi';
+		var marker = new L.Marker(new L.LatLng(a[0], a[1]), { title: title });
+		marker.bindPopup(title);
+		markers.addLayer(marker);
+	}
+
+	map.addLayer(markers);
+
+	var props = new L.MarkerClusterGroup();
+
+	for (var i = 0; i < properties.length; i++) {
+		var a = properties[i];
+		var title = a[2];
+		var marker = new L.Marker(new L.LatLng(a[0], a[1]), { title: title });
+		marker.bindPopup(title);
+		props.addLayer(marker);
+	}
+
+	map.addLayer(props);
+
+	var imageUrl = '2012_sqm_coords_gray_cropped_pixelated.png',
+    	imageBounds = [[47.35, 18.9], [47.65, 19.3]];
+
+	L.imageOverlay(imageUrl, imageBounds, {opacity: 0.9}).addTo(map);
+
+</script>
+
+</body>
+</html>
