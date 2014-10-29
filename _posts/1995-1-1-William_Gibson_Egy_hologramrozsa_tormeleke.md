@@ -1,10 +1,7 @@
 ---
 layout: post
-title: William Gibson: Egy hologramrozsa tormeleke 
+title: William Gibson Egy hologramrozsa tormeleke 
 ---
-
-William Gibson: Egy hologramrózsa törmeléke
-=
 
 Azon a nyáron Parkernek gondjai akadtak az alvással.
 
