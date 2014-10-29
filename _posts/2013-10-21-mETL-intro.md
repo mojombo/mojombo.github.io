@@ -8,4 +8,4 @@ My [mETL intro presentation](https://www.haikudeck.com/p/clh5HKRIwf/metl-intro) 
 
 You can [watch it](http://www.ustream.tv/recorded/39892412) courtesy of Ustream.
 
-Get [mETL](https://pypi.python.org/pypi/mETL/0.1.7.0dev) as Python package now after you've seen Bence [presentation](https://speakerdeck.com/bfaludi/extract-transform-load-using-metl) at PyData Berlin and checked out his [tutorial](https://github.com/bfaludi/mETL-tutorials).
+Get [mETL](https://pypi.python.org/pypi/mETL/0.1.7.0dev) as Python package now after you've seen Bence's [presentation](https://speakerdeck.com/bfaludi/extract-transform-load-using-metl) at PyData Berlin and checked out his [tutorial](https://github.com/bfaludi/mETL-tutorials).
