@@ -1,6 +1,6 @@
 ---
 layout: post
-title: William Gibson: Egy hologramrózsa törmeléke 
+title: William Gibson: Egy hologramrozsa tormeleke 
 ---
 
 William Gibson: Egy hologramrózsa törmeléke
