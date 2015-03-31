@@ -77,6 +77,7 @@ collapsed AS
 ```
 
 Finally we can see what are the typical flows.
+
 ```
 SELECT sum AS onboarding, COUNT(sum),
 ROUND(COUNT(sum)::FLOAT / 
