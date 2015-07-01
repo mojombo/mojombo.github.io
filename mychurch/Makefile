@@ -1,2 +1,2 @@
-albums.html:
-	python spotify.py > albums.html
+index.html:
+	python spotify.py > index.html
