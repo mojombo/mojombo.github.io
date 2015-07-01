@@ -23,7 +23,7 @@ for li in fi:
   all.append(extract(li.strip()))
 fi.close()
 
-print '<html>\n---\nlayout: default\ntitle: my church - albums\n---\n\n<div id="home">\n'
+print '\n---\nlayout: default\ntitle: my church - albums\n---\n\n<div id="home">\n'
 for year in range(2015, 1976, -1):
   buffer = ''
   buffer += '<h1>%s</h1><br>' % str(year)
@@ -36,4 +36,4 @@ for year in range(2015, 1976, -1):
   if buffer.endswith('a>'):
     print buffer
 
-print '</div>\n</html>'
+print '</div>\n'
