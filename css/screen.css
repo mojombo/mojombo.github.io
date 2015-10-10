@@ -133,14 +133,14 @@ ul.posts {
       }
 
     .site .footer .rss {
-      margin-top: 1.1em;
+      /*margin-top: 1.1em;*/
       margin-right: -.2em;
       float: right;
     }
 
-      .site .footer .rss img {
+      /*.site .footer .rss img {
         border: 0;
-      }
+      }*/
 
 /*****************************************************************************/
 /*
