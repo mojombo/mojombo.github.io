@@ -205,14 +205,17 @@ ul.posts {
   /*top article lists*/
   .ds-top-threads{
     font-weight: bold;
-    list-style-type: none;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-left-style: solid;
   }
   .ds-top-threads li{
     list-style-type: lower-roman;
+    border-left-style: solid;
     border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-left-width: 10px;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
     padding-left: 20px;
   }
 
