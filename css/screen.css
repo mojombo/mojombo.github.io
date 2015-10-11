@@ -195,3 +195,29 @@ ul.posts {
   #related h2 {
     margin-bottom: 1em;
   }
+
+/**********************************************************************************/
+/*
+/*    duoshuo
+/*
+/**********************************************************************************/
+
+  /*top article lists*/
+  .ds-top-threads{
+    font-weight: bold;
+    list-style-type: none;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+  }
+  .ds-top-threads li{
+    list-style-type: lower-roman;
+    border-bottom-style: solid;
+    padding-left: 20px;
+  }
+
+  /*new recent*/
+  .ds-recent-comments .ds-show-avatars .ds-meta{
+    color: #f00;
+    font-weight: bold;
+  }
