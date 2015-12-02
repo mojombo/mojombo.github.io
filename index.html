@@ -6,6 +6,8 @@ title: soobrosa
 <div id="home">
   <h1>Blog Posts</h1>
   <ul class="posts">
+    <li><span>13 Nov 2015</span> &raquo; <a href="https://medium.com/wunderlist-engineering/presenting-101-c65283ab1828#.snfrx1j1z">Presenting 101</a> (Medium)
+    <li><span>13 May 2015</span> &raquo; <a href="https://medium.com/wunderlist-engineering/talk-to-wunderlist-in-python-8c456a1ba821#.xutrr3cwt">Talk to Wunderlist in Python</a> (Medium)
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
