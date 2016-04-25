@@ -10,9 +10,9 @@ title: Optimize for Happiness
 
 Two days ago I had the pleasure of speaking at Startup School, a yearly conference on entrepreneurism put on by the great folks at Y Combinator. Never before have I see such a high concentration of smart ambitious people in one place.
 
-You can watch the recording of my thirty minute slot courtesy of Justin.tv:
+You can watch the recording of my thirty minute slot on Youtube:
 
-<center><a href="http://www.justin.tv/startupschool/b/272031754"><img src="http://img.skitch.com/20101018-p9ux9isde8m64ht8wertuytxfd.jpg" /></a></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/T4VtBcmbbSs" frameborder="0" allowfullscreen></iframe></center>
 
 Since I only had about 25 minutes for the talk and 5 minutes for questions, I wanted to expand upon and clarify some of the ideas I introduced during the talk and then make myself available for additional questions. So today (Monday, 18 October 2010) I'll be answering any questions you have via Hacker News:
 
