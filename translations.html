@@ -4,9 +4,9 @@ title: soobrosa
 ---
 
 <div id="home">
-  <h1>Mixes</h1>
+  <h1>Translations</h1>
   <ul class="posts">
-    <li><span>May 2009</span> &raquo; <a href="https://www.ted.com/talks/ken_robinson_says_schools_kill_creativity/transcript?language=hu">Ken Robinson: Do schools kill creativity? (TED2006)"</a></li>
+    <li><span>May 2009</span> &raquo; <a href="https://www.ted.com/talks/ken_robinson_says_schools_kill_creativity/transcript?language=hu">Ken Robinson: Do schools kill creativity? (TED2006)</a></li>
     {% for post in site.categories["translation"] %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
