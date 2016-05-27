@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hubway Data Challenge
+category: post
 ---
 
 [Applied](http://hubwaydatachallenge.org/submission/38/) for [Hubway Data Challenge](http://hubwaydatachallenge.org/) with [Balázs Krich](http://dataeast.co/).

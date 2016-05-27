@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Duna waterlevels from 2002
-
+category: post
 ---
 I didn't remember flood in June, so checked out the data. Lighter blue is older data.
 

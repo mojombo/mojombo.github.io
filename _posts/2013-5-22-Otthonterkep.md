@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Otthontérkép - map-based real estate site
+category: post
 ---
 It's fun to see that what used to be MVPs sketched by me like this:
 

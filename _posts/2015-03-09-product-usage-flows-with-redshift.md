@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Product Usage Flows with Redshift
+category: post
 ---
 Cyclic or acyclic product usage flows stored in Redshift? No probs, visualize them with ease.
 

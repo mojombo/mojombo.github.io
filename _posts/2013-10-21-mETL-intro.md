@@ -1,6 +1,7 @@
 ---
 layout: post
 title: mETL intro presentation
+category: post
 ---
 My [mETL intro presentation](https://www.haikudeck.com/p/clh5HKRIwf/metl-intro) at last week's [Budapest Database Meetup](http://www.meetup.com/Budapest-Database-Meetup/) (thanks to [CEU Microdata](https://github.com/ceumicrodata) & [@bfaludi](https://twitter.com/bfaludi) & [@ceuhungary](https://twitter.com/ceuhungary))
 

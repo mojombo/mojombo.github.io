@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Alan Kay - Csontváz a szekrényben - a számítógépek (mi)haszna az oktatásban (fordítás)
+title: Alan Kay - Csontváz a szekrényben - a számítógépek (mi)haszna az oktatásban
 category: translation
 ---
 

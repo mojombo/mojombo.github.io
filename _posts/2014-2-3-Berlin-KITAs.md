@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Berlin KITAs
+category: post
 ---
 Preparing on how to find KITA places for the kids -- a quick scrape from the official Berlin site with minimal styling goes to CartoDB.
 

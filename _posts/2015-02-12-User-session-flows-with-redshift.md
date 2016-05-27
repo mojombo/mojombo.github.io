@@ -1,6 +1,7 @@
 ---
 layout: post
 title: User Session Flows with Redshift
+category: post
 ---
 [Redshift](http://aws.amazon.com/redshift/) is like crack, it’s so superfast you just can’t go back to anything normal. Feels like an MVP where you don’t get all the jingles of a proper PSQL, but it’s blazing fast and you keep smiling and forget about all the bad parts — if you would like to do something more sophisticated, your options are quite limited like Torsten did on [expanding JSON arrays](http://torsten.io/stdout/expanding-json-arrays-to-rows/) or figuring out [how many bytes long are actually unicode strings](https://twitter.com/t0rsten/status/555389464131166209)
 ?
