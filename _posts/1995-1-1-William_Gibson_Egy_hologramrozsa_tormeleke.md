@@ -1,6 +1,7 @@
 ---
 layout: post
 title: William Gibson - Egy hologramrózsa törmeléke (fordítás)
+category: translation
 ---
 
 William Gibson: Egy hologramrózsa törmeléke
