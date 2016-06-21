@@ -147,7 +147,7 @@ By converting every snapshot directory in the old system to object files in the 
 
 h2. Compressing Blobs
 
-Eliminating blob and tree duplication significantly reduces the total storage size of your project history, but that's not the only thing you can do to save space. Source code is just text. Text can be very efficiently compressed using something like the LZW or DEFLATE compression algorithms. If you compress every blob before computing its SHA1 and saving it to disk you can reduce the total storage size of the project history by another very admirable quantity.
+Eliminating blob and tree duplication significantly reduces the total storage size of your project history, but that's not the only thing you can do to save space. Source code is just text. Text can be very efficiently compressed using something like the LZW or DEFLATE compression algorithms. If you compress every blob after computing its SHA1 and save it to disk you can reduce the total storage size of the project history by another very admirable quantity.
 
 h2. The True Git
 
