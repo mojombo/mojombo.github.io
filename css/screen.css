@@ -176,6 +176,11 @@ ul.posts {
       border: none;
     }
 
+  #post img {
+    max-width: 42em;
+    padding: 1em 0;
+  }
+
   /* terminal */
 
   #post pre.terminal {
