@@ -87,13 +87,13 @@ ul.posts {
 }
 
 .title {
-  font-size: 120%
   color: #a00;
   font-weight: bold;
   margin-bottom: 2em;
 }
 
   .site .title a {
+    font-size: 150%
     color: #a00;
     text-decoration: none;
   }
