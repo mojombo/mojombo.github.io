@@ -1,3 +1,7 @@
+# Important note
+
+I was tired to deal with very complicated and over-engineered blog sites just to put my humble content in the air. Looking for a way to publish my projects and thoughts in the most minimalistic and easiest way as possible, I found [Tom's repo on Git](https://github.com/mojombo/mojombo.github.io) and I imediately forked it and just made some minor adjustments in colors, text sizes and etc. If you like the blog-like-a-hacker style, it's thanks to Tom Preston-Werner.
+
 # This is the data for my blog
 
 It is automatically transformed by [Jekyll](http://github.com/mojombo/jekyll)
@@ -12,7 +16,7 @@ again.
 
 ## License
 
-The following directories and their contents are Copyright Tom Preston-Werner.
+The following directories and their contents are Copyright Eduardo Lopes.
 You may not reuse anything therein without my permission:
 
 * \_posts/
