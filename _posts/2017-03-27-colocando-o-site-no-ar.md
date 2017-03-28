@@ -16,7 +16,7 @@ participei do comecinho do [fab lab sp](http://digifab.fau.usp.br/) (graças ao 
 
 durante esse percurso, criei, co-criei, participei, dei pitacos e apoiei uma porrada de projetos e coisas que eu nunca tive tempo de parar para organizar, catalogar e colocar no ar. documentar sempre fica pra depois, todo _maker_ sabe do que estou falando...agora chegou a hora!
 
-mas (sempre tem um mas...) é claro que não deu tempo ainda de subir tudo. consegui até agora reunir os links para um clipping pessoal de notícias. mais do que falar sobre mim, essa coletânea é quase uma história da chegada da rede de fab labs no brasil, mostrando também algumas pessoas que estiveram envolvidas com esse processo ao longo dos últimos quatro ou cinco anos.
+mas (sempre tem um mas...) é claro que não deu tempo ainda de subir tudo. o que consegui mesmo até agora foi reunir os links para um clipping pessoal de notícias. mais do que falar sobre mim, essa coletânea é quase uma história da chegada da rede de fab labs no brasil, mostrando também algumas pessoas que estiveram envolvidas com esse processo ao longo dos últimos quatro ou cinco anos.
 
 além disso, listei as datas e links de todos os cursos e palestras mais significativas que dei nesse tempo (vou disponibilizar os arquivos mais pra frente) e, por fim, iniciei a documentação completa de dois projetos muito importantes para mim: a conversão da laser chinesa do olabi, que virou open source, e a versão brasileira do protótipo do [cubetto](https://github.com/primo-io), um projeto antigo do garagem, que vou retomar nesse semestre para a escola dos meus filhos.
 
