@@ -1,6 +1,6 @@
 ---
 layout: post
-title: finalmente, colocando o meu site pessoal no ar
+title: tought | finalmente, colocando o meu site pessoal no ar
 ---
 
 {{ page.title }}
