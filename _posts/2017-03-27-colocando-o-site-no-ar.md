@@ -6,7 +6,7 @@ title: finalmente, colocando o meu site pessoal no ar
 {{ page.title }}
 ================
 
-<p class="meta">27 Mar 2017 - São Paulo</p>
+<p class="meta">27 Mar 2017 - são paulo</p>
  
 depois de quase seis anos envolvido com fabricação digital, makerspaces, fab labs e afins, consegui reunir forças para colocar - da forma mais simples possível - um blog (?) no ar. 
 
