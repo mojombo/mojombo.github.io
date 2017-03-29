@@ -35,15 +35,15 @@ p {
 }
 
 a {
-  color: #00a;
+  color: #000000;
 }
 
 a:hover {
-  color: black;
+  color: #aaa;
 }
 
 a:visited {
-  color: #a0a;
+  color: #a00;
 }
 
 table {
@@ -93,6 +93,7 @@ ul.posts {
 }
 
   .site .title a {
+    font-size: 25px;
     color: #a00;
     text-decoration: none;
   }
