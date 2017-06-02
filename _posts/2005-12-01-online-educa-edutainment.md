@@ -4,14 +4,18 @@ title: Connectivism in Practice – Edutainment that Works!
 category: post
 ---
 
-"Connectivism is the integration of principles explored by chaos,  network, and complexity and self-organization theories. Learning  is a process that occurs within nebulous environments of  shifting core elements – not entirely under the control of the  individual. Learning (defined as actionable knowledge) can  reside outside of ourselves (within an organization or a  database), is focused on connecting specialized information  sets, and the connections that enable us to learn more are more  important than our current state of knowing." (George Siemens: Connectivism: - A Learning Theory for the  Digital Age, http://www.elearnspace.org/Articles/connectivism.htm)
+Connectivism in Practice – Edutainment that Works!
+-
 
-"Edutainment (also educational entertainment or  entertainment-education) is a form of entertainment designed to  educate as well as to amuse. Edutainment typically seeks to  instruct or socialize its audience by embedding lessons in some  familiar form of entertainment: television programs, computer  and video games, films, music, websites, multimedia software, et  al." (From Wikipedia, the free encyclopedia.)
+**Excerpt of presentation delivered at Onlinde Educa Berlin 2005**
 
-Case A
+_"Connectivism is the integration of principles explored by chaos,  network, and complexity and self-organization theories. Learning  is a process that occurs within nebulous environments of  shifting core elements – not entirely under the control of the  individual. Learning (defined as actionable knowledge) can  reside outside of ourselves (within an organization or a  database), is focused on connecting specialized information  sets, and the connections that enable us to learn more are more  important than our current state of knowing."_ (George Siemens: [Connectivism - A Learning Theory for the  Digital Age](http://www.elearnspace.org/Articles/connectivism.htm))
 
-Professor X Quest
-http://www.professzorx.hu/
+_"Edutainment (also educational entertainment or  entertainment-education) is a form of entertainment designed to  educate as well as to amuse. Edutainment typically seeks to  instruct or socialize its audience by embedding lessons in some  familiar form of entertainment: television programs, computer  and video games, films, music, websites, multimedia software, et  al."_ (From Wikipedia, the free encyclopedia.)
+
+**Case A**
+
+[Professor X Quest](http://hirek.prim.hu/cikk/42488/)
 
 The competition was launched in October 2004 UPC by UPC Magyarország Kft., in cooperation with Oktopusz Foundation and Coedu EducatioNet Ltd.
 
@@ -28,10 +32,9 @@ What we’ve learned?
 - they have to make efforts to express themselves soundly in written verbal form,
 - they are much more interested in visual communication.
 
-Case B
+**Case B**
 
-Luis de Filmez MovImagiNation Contest
-http://filmez.hu/
+[Luis de Filmez MovImagiNation Contest](http://www.technokrata.hu/kutyuk/2005/04/20/kozel-1100-diak-egy-uj-magyar-online-versenyen/)
 
 The competition was launched in April 2005 by UPC Magyarorszag Kft. In cooperation with Oktopusz Foundation and Coedu EducatioNet Ltd. 
 
@@ -45,13 +48,8 @@ During the 3 months of work students had the opportunity to:
 - use their creativity to create film ideas and work them out,
 - develop their presentation skills.
 
-Case C
+**Case C**
 
-Professor X 2050 Quest
-http://www.professzorx.hu/
+[Professor X 2050 Quest](http://web.archive.org/web/20060924183635/http://www.professzorx.hu/)
 
 We try to provide visual storytelling tools while keeping the original scientific mystery format. Each week we present a mystery in the form of an animation with a soundtrack and we’ll ask for the solution in the same format. Therefore we’ve developed Release, a Flash-based animation generator that lets the user edit the storyboard of an animation with predefined sets and character animations. The characters will talk in textbubbles and you’ll be able to construct your own radio drama for the episode.
-
-Daniel Molnár,
-Coedu Educationet Ltd.,Hungary 
-Connectivism in Practice – Edutainment that Works!
