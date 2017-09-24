@@ -11,7 +11,7 @@ title: Filtering in Protractor
 As described in the docs for `filter` it returns an instance of `ElementArrayFinder`. 
 When you call a `then` method on instance of `ElementArrayFinder`, it resolves to an array of `ElementFinders`,
 so in the callback for `then` you receive a pure JavaScript Array of `ElementFinder`s. 
-To iterate it you can use native JavaScrupt `forEach`:
+To iterate it you can use native JavaScript `forEach`:
 
 ``` javascript
 checkbox_list.filter(function(elem, index) {
