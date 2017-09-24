@@ -24,8 +24,8 @@ checkbox_list.filter(function(elem, index) {
 });
 ```
 
-Otherwise, ElementArrayFinder has it's own method each, you should call it right on the result of filter, 
-not inside a callback for then:
+Otherwise, `ElementArrayFinder` has it's own method `each`, you should call it right on the result of `filter`, 
+not inside a callback for `then`:
 
 ``` javascript
 checkbox_list.filter(function(elem, index) {
