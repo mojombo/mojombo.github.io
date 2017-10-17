@@ -22,7 +22,7 @@ Here is a way of writing single css locator which will work for both of these el
 $("input[name*='first' i]")
 ```
 
-All the of the magic is done by `i` identifier. Here is a [doc](https://www.w3.org/TR/selectors4/#attribute-case).
+All of the magic is done by `i` identifier. Here is a [doc](https://www.w3.org/TR/selectors4/#attribute-case).
 One of the ways you can use this is if you are working on some web crawler or web scraper and you need
 to register at a bunch of different resources, where you have very similar form layout, but inputs' labels could
 be in different registers.
