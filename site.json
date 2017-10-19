@@ -1,0 +1,13 @@
+---
+layout: nil
+---
+
+[
+{% for item in site.posts %}
+{
+   "title": {{ item.title | jsonify }},
+   "date":  {{ item.date  | jsonify }},
+   "url":   {{ item.url   | jsonify }}
+},
+{% endfor %}
+false]
