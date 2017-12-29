@@ -79,7 +79,7 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
-  font-size: 100%;
+  font-size: 110%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em auto;
@@ -89,12 +89,11 @@ ul.posts {
 .title {
   color: #a00;
   font-weight: bold;
-  font-size: 60px;
   margin-bottom: 2em;
 }
 
   .site .title a {
-    color: #ff0000;
+    color: #a00;
     text-decoration: none;
   }
 
@@ -103,7 +102,7 @@ ul.posts {
   }
 
   .site .title a.extra {
-    color: #00;
+    color: #aaa;
     text-decoration: none;
     margin-left: 1em;
   }
