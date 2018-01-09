@@ -214,7 +214,7 @@ have distinct directories named '8ba3441b6b89cad23387ee875f2ae55069291f4b' and
 With the updated naming scheme, it becomes trivial for you to fetch all the new
 snapshots from Zoe's computer and place them next to your existing snapshots.
 Because every snapshot specifies its parent, and identical messages (and
-therefor identical snapshots) have identical names no matter where they are
+therefore identical snapshots) have identical names no matter where they are
 created, the history of the codebase can still be drawn as a tree. Only now, the
 tree is comprised of snapshots authored by both Zoe and you.
 
