@@ -1,73 +1,144 @@
----
-layout: default
-title: Bot.je blog
----
+<!DOCTYPE html>
+<html class="nojs html css_verticalspacer" lang="nl-NL">
+ <head>
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-
-  <!--
-  <h1>Teaching materials</h1>
-  <ul class="posts">
-    <li><span>02 Sep 2013</span> &raquo; <a href="http://www.wired.com/wiredenterprise/2013/09/github-for-anything/all/">Article: WIRED - GitHub Is Going Mainstream</a></li>
-    <li><span>09 Nov 2011</span> &raquo; <a href="http://vimeo.com/39016099">Video: RubyConf Argentina - Optimizing For Happiness</a></li>
-    <li><span>01 Oct 2011</span> &raquo; <a href="http://confreaks.com/videos/712-rubyconf2011-github-flavored-ruby">Video: RubyConf - GitHub Flavored Ruby</a></li>
-    <li><span>23 Nov 2010</span> &raquo; <a href="http://vimeo.com/17118008">Video: Erlang Factory - Mastering Git Basics</a></li>
-  </ul>
-
-  <h1>Lectures, Talks, Etc</h1>
-  <ul class="posts">
-    <li><span>12 Sep 2013</span> &raquo; <a href="http://www.youtube.com/watch?v=k2vJNNAQZlg">Video: Fox Business News interview</a></li>
-    <li><span>02 Sep 2013</span> &raquo; <a href="http://www.wired.com/wiredenterprise/2013/09/github-for-anything/all/">Article: WIRED - GitHub Is Going Mainstream</a></li>
-    <li><span>25 Jul 2013</span> &raquo; <a href="http://www.youtube.com/watch?v=7DoB0SCUtOk&list=SP055Epbe6d5aclKNAa8msO1VvDOJ8sYlS&index=23">Video: O'Reilly Media - OSCON 2013 Interview</a></li>
-    <li><span>28 Dec 2012</span> &raquo; <a href="http://bits.blogs.nytimes.com/2012/12/28/github-has-big-dreams-for-open-source-software-and-more/">Article: NYTimes - Dreams of ‘Open’ Everything</a></li>
-    <li><span>20 Oct 2012</span> &raquo; <a href="http://startupschool.org/2012/preston_werner/">Video: Startup School 2012 - People, Product, Philosophy</a></li>
-    <li><span>27 Sep 2012</span> &raquo; <a href="http://www.youtube.com/watch?v=Ln-B_fs9QMY&feature=youtu.be">Video (Panel): Orrick - How to Build a Great Startup Culture</a></li>
-    <li><span>18 Jun 2012</span> &raquo; <a href="http://gigaom.com/cloud/10-innovators-changing-the-game-for-internet-infrastructure/7/">Article: GigaOm - 10 Innovators Changing the Game for Internet Infrastructure</a></li>
-    <li><span>02 Dec 2011</span> &raquo; <a href="http://vimeo.com/35640883">Video: Northern Lights Conference - Leveling Up</a></li>
-    <li><span>12 Nov 2011</span> &raquo; <a href="http://speakerdeck.com/u/mojombo/p/github-flavored-ruby">Slides: RubyConf Uruguay - GitHub Flavored Ruby</a></li>
-    <li><span>09 Nov 2011</span> &raquo; <a href="http://speakerdeck.com/u/mojombo/p/optimizing-for-happiness">Slides: RubyConf Argentina - Optimizing For Happiness</a></li>
-    <li><span>14 Apr 2011</span> &raquo; <a href="http://skillsmatter.com/podcast/agile-testing/optimizing-for-happiness">Video: ACCU Conference - Optimizing For Happiness</a></li>
-    <li><span>09 Apr 2011</span> &raquo; <a href="http://blogs.sitepoint.com/podcast-107-social-coding-with-githubs-tom-preston-werner/">SitePoint Podcast: Social Coding with GitHub’s Tom Preston-Werner</a></li>
-    <li><span>10 Feb 2011</span> &raquo; <a href="http://sea.ucar.edu/event/unlocking-secrets-git">Video: NCAR SEA: Unlocking the Secrets of Git</a></li>
-    <li><span>12 Jan 2011</span> &raquo; <a href="http://www.maestrosdelweb.com/editorial/tom-preston-werner-fundador-de-github/">Maestros del Web: Tom Preston-Werner fundador de GitHub</a></li>
-    <li><span>11 Nov 2010</span> &raquo; <a href="http://confreaks.net/videos/432-rubyconf2010-the-road-from-ruby-hacker-to-entrepreneur">Video: RubyConf 2010 - The Road from Ruby Hacker to Entrepreneur</a></li>
-    <li><span>16 Oct 2010</span> &raquo; <a href="http://lambdaphant.com/blog/interview-with-tom-preston-werner-from-github">Lambdaphant interview with Tom Preston-Werner</a></li>
-    <li><span>16 Oct 2010</span> &raquo; <a href="http://www.justin.tv/c3oorg/b/272031754">Video: Startup School - Optimize for Happiness</a></li>
-    <li><span>16 Sep 2010</span> &raquo; <a href="http://www.youtube.com/watch?v=Hi2V1x1AkD8">Video: @mail.ru Office Presentation</a></li>
-    <li><span>14 Sep 2010</span> &raquo; <a href="http://video.mail.ru/corp/video/conference2010/12.html">Video: @mail.ru Tech Forum in Moscow</a></li>
-    <li><span>11 Sep 2010</span> &raquo; <a href="http://www.flickr.com/photos/seldaek/4986315165/">Photo: FunConf Speech in Ireland</a></li>
-    <li><span>07 Sep 2010</span> &raquo; <a href="http://www.mindmeister.com/fr/maps/show_public/60955251?title=tom-preston-schnitzelconf">SchnitzelConf: Virality and Community</a></li>
-    <li><span>27 Aug 2010</span> &raquo; <a href="http://confreaks.net/videos/297-lsrc2010-keynote-address">Video: Lone Star Ruby Conf Keynote</a></li>
-    <li><span>16 Aug 2010</span> &raquo; <a href="http://www.infoq.com/interviews/erlang-and-github">InfoQ: Erlang Factory Interview - Tom Preston-Werner and Kenneth Lundin</a></li>
-    <li><span>03 Aug 2010</span> &raquo; <a href="http://37signals.com/svn/posts/2486-bootstrapped-profitable-proud-github">37signals: Bootstrapped, Profitable, & Proud: GitHub</a></li>
-    <li><span>17 Jun 2010</span> &raquo; <a href="http://webpulp.tv/post/708686185/github-tom-preston-werner">WebPulp.tv: Interview with GitHub CTO Tom Preston-Werner</a></li>
-    <li><span>27 Apr 2010</span> &raquo; <a href="http://www.youtube.com/watch?v=weF-_dLYrzw">The Next Web 2010: Interview about Gravatar and Online Reputation</a></li>
-    <li><span>27 Apr 2010</span> &raquo; <a href="http://ontwik.com/github/tom-werner-co-founder-of-github/">TNW 2010: What I Learned From Bootstrapping a Side Project Into GitHub</a></li>
-    <li><span>19 Nov 2009</span> &raquo; <a href="http://rubyconf2009.confreaks.com/19-nov-2009-10-25-bert-and-ernie-scaling-your-ruby-site-with-erlang-tom-preston-werner.html">RubyConf 2009 Talk: BERT and Ernie: Scaling your Ruby site with Erlang</a></li>
-    <li><span>21 Aug 2009</span> &raquo; <a href="http://www.linux-mag.com/cache/7486/1.html">Linux Magazine: The GitHub Hall of Fame - Jekyll Review</a></li>
-    <li><span>27 Jul 2009</span> &raquo; <a href="http://developer.yahoo.com/yui/theater/video.php?v=prestonwerner-github">Yahoo Developer Talk: Git, GitHub, and Social Coding</a></li>
-    <li><span>22 Jul 2009</span> &raquo; <a href="http://www.viddler.com/explore/GreggPollack/videos/25/44">Envy Labs: 5 Days of OSCON Interview</a></li>
-    <li><span>30 Apr 2009</span> &raquo; <a href="http://www.erlang-factory.com/conference/SFBayAreaErlangFactory2009/speakers/TomPrestonWerner">Erlang Factory 09: Mixing Erlang and Ruby with Erlectricity</a></li>
-    <li><span>23 Apr 2009</span> &raquo; <a href="http://images.businessweek.com/ss/09/04/0421_best_young_entrepreneurs/17.htm">BusinessWeek: Best Young Tech Entrepreneurs of 2009</a></li>
-    <li><span>17 Jan 2009</span> &raquo; <a href="http://www.infoq.com/presentations/preston-werner-conceptual-algorithms">RubyFringe 2008: Conceptual Algorithms</a></li>
-    <li><span>09 Oct 2008</span> &raquo; <a href="http://www.infoq.com/interviews/preston-werner-powerset-github-ruby">InfoQ: Tom Preston-Werner on Powerset, GitHub, Ruby and Erlang</a></li>
-    <li><span>11 Jul 2008</span> &raquo; <a href="http://www.rubyology.com/podcasts/show/67">Rubyology 65: Powerset Stars 2 of 2</a></li>
-    <li><span>05 Jul 2008</span> &raquo; <a href="http://www.rubyology.com/podcasts/show/66">Rubyology 65: Powerset Stars 1 of 2</a></li>
-    <li><span>13 Jun 2008</span> &raquo; <a href="http://web20show.com/episodes/web20show-ep45-github">Web 2.0 Show: GitHub (Tom Preston-Werner &amp; Chris Wanstrath)</a></li>
-    <li><span>02 Jun 2008</span> &raquo; <a href="http://www.vimeo.com/1104583">Gregg Pollack: Dave Fayram and Tom Preston-Werner at RailsConf</a></li>
-    <li><span>29 May 2008</span> &raquo; <a href="http://en.oreilly.com/rails2008/public/schedule/speaker/2520">RailsConf 08: Two talks</a></li>
-    <li><span>18 Oct 2007</span> &raquo; <a href="http://blog.gravatar.com/2007/10/18/automattic-gravatar/">Gravatar Blog: Automattic Acquires Gravatar</a></li>
-    <li><span>16 Aug 2007</span> &raquo; <a href="http://www.blognewcomb.com/blog/2007/08/powerset_interview_with_tom_pr.html">Steve Newcomb Blog: Interview with Tom Preston-Werner</a></li>
-    <li><span>26 Dec 2006</span> &raquo; <a href="http://wp-community.org/2006/12/26/episode-15-interviews-with-tom-werner-gravatar-and-jaimie-sirovich-seo-egghead/">WordPress Podcast: Interview with Tom Werner</a></li>
-    <li><span>02 Apr 2005</span> &raquo; <a href="http://joshuaink2006.johnoxton.co.uk/blog/240/seven-and-a-half-questions-for-tom-werner">JoshuaInk: Seven and a half questions for Tom Werner</a></li>
-  </ul>
-
---!>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2018.0.0.379"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   
-</div>
+  <script type="text/javascript">
+   // Update the 'nojs'/'js' class on the html node
+document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+
+// Check that all required assets are uploaded and up-to-date
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
+</script>
+  
+  <title>Home</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=11251222" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <script src="https://webfonts.creativecloud.com/abel:n4:all.js" type="text/javascript"></script>
+   </head>
+ <body>
+
+  <div class="clearfix borderbox" id="page"><!-- column -->
+   <div class="clearfix colelem" id="pu1076"><!-- group -->
+    <!-- m_editable region-id="editable-static-tag-U1076" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <div class="pointer_cursor rounded-corners clearfix grpelem" id="u1076" data-muse-uid="U1076"><!-- group -->
+     <a class="block" href="ontwerpproces.html" data-href="page:U279"><!-- Block link tag --></a>
+     <!-- m_editable region-id="editable-static-tag-U1070" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+     <a class="nonblock nontext rounded-corners clearfix grpelem" id="u1070" href="ontwerpproces.html" data-href="page:U279" data-muse-uid="U1070"><!-- group --><!-- m_editable region-id="editable-static-tag-U1071-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix grpelem" id="u1071-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1071" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>conversational interface</p></div><!-- /m_editable --></a>
+     <!-- /m_editable -->
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U319" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <a class="nonblock nontext rounded-corners clearfix grpelem" id="u319" href="ontwerpproces.html" data-href="page:U279" data-muse-uid="U319"><!-- group --><!-- m_editable region-id="editable-static-tag-U1033-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix grpelem" id="u1033-6" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1033" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>Ontwerpen</p><p>van gesprekken</p></div><!-- /m_editable --></a>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U346" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <a class="nonblock nontext rounded-corners clearfix grpelem" id="u346" href="ontwerpproces.html" data-href="page:U279" data-muse-uid="U346"><!-- group --><!-- m_editable region-id="editable-static-tag-U1041-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix grpelem" id="u1041-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1041" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>Taal als interface</p></div><!-- /m_editable --></a>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U349" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <a class="nonblock nontext rounded-corners clearfix grpelem" id="u349" href="ontwerpproces.html" data-href="page:U279" data-muse-uid="U349"><!-- group --><!-- m_editable region-id="editable-static-tag-U1044-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix grpelem" id="u1044-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1044" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>conversational interface</p></div><!-- /m_editable --></a>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U1064" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <a class="nonblock nontext rounded-corners clearfix grpelem" id="u1064" href="ontwerpproces.html" data-href="page:U279" data-muse-uid="U1064"><!-- group --><!-- m_editable region-id="editable-static-tag-U1065-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix grpelem" id="u1065-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1065" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>Agents en Agency</p></div><!-- /m_editable --></a>
+    <!-- /m_editable -->
+   </div>
+   <div class="clearfix colelem" id="pu1175"><!-- group -->
+    <!-- m_editable region-id="editable-static-tag-U1175" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <div class="pointer_cursor rounded-corners clearfix grpelem" id="u1175" data-muse-uid="U1175"><!-- group -->
+     <a class="block" href="ontwerpproces.html" data-href="page:U279"><!-- Block link tag --></a>
+     <a class="nonblock nontext rounded-corners clearfix grpelem" id="u1176" href="ontwerpproces.html" data-href="page:U279"><!-- column --><!-- m_editable region-id="editable-static-tag-U1176" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" --><div class="position_content" id="u1176_position_content" data-muse-uid="U1176"><!-- m_editable region-id="editable-static-tag-U1178-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1178-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1178" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>research</p></div><!-- /m_editable --><!-- m_editable region-id="editable-static-tag-U1177-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1177-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1177" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>usecases</p></div><!-- /m_editable --></div><!-- /m_editable --></a>
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U1163" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <div class="pointer_cursor rounded-corners clearfix grpelem" id="u1163" data-muse-uid="U1163"><!-- group -->
+     <a class="block" href="ontwerpproces.html" data-href="page:U279"><!-- Block link tag --></a>
+     <a class="nonblock nontext rounded-corners clearfix grpelem" id="u1164" href="ontwerpproces.html" data-href="page:U279"><!-- column --><!-- m_editable region-id="editable-static-tag-U1164" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" --><div class="position_content" id="u1164_position_content" data-muse-uid="U1164"><!-- m_editable region-id="editable-static-tag-U1166-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1166-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1166" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>research</p></div><!-- /m_editable --><!-- m_editable region-id="editable-static-tag-U1165-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1165-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1165" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>usecases</p></div><!-- /m_editable --></div><!-- /m_editable --></a>
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U1109" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <div class="pointer_cursor rounded-corners clearfix grpelem" id="u1109" data-muse-uid="U1109"><!-- group -->
+     <a class="block" href="ontwerpproces.html" data-href="page:U279"><!-- Block link tag --></a>
+     <a class="nonblock nontext rounded-corners clearfix grpelem" id="u1110" href="ontwerpproces.html" data-href="page:U279"><!-- column --><!-- m_editable region-id="editable-static-tag-U1110" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" --><div class="position_content" id="u1110_position_content" data-muse-uid="U1110"><!-- m_editable region-id="editable-static-tag-U1136-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1136-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1136" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>research</p></div><!-- /m_editable --><!-- m_editable region-id="editable-static-tag-U1111-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1111-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1111" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>ontwerpstappen</p></div><!-- /m_editable --></div><!-- /m_editable --></a>
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U1112" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <div class="pointer_cursor rounded-corners clearfix grpelem" id="u1112" data-muse-uid="U1112"><!-- group -->
+     <a class="block" href="ontwerpproces.html" data-href="page:U279"><!-- Block link tag --></a>
+     <a class="nonblock nontext rounded-corners clearfix grpelem" id="u1113" href="ontwerpproces.html" data-href="page:U279"><!-- column --><!-- m_editable region-id="editable-static-tag-U1113" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" --><div class="position_content" id="u1113_position_content" data-muse-uid="U1113"><!-- m_editable region-id="editable-static-tag-U1139-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1139-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1139" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>research</p></div><!-- /m_editable --><!-- m_editable region-id="editable-static-tag-U1114-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1114-6" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1114" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>technische</p><p>stack</p></div><!-- /m_editable --></div><!-- /m_editable --></a>
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U1115" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <div class="pointer_cursor rounded-corners clearfix grpelem" id="u1115" data-muse-uid="U1115"><!-- group -->
+     <a class="block" href="ontwerpproces.html" data-href="page:U279"><!-- Block link tag --></a>
+     <a class="nonblock nontext rounded-corners clearfix grpelem" id="u1116" href="ontwerpproces.html" data-href="page:U279"><!-- column --><!-- m_editable region-id="editable-static-tag-U1116" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" --><div class="position_content" id="u1116_position_content" data-muse-uid="U1116"><!-- m_editable region-id="editable-static-tag-U1142-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1142-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1142" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>research</p></div><!-- /m_editable --><!-- m_editable region-id="editable-static-tag-U1117-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1117-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1117" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>persoonlijkheid</p></div><!-- /m_editable --></div><!-- /m_editable --></a>
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U1145" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <div class="pointer_cursor rounded-corners clearfix grpelem" id="u1145" data-muse-uid="U1145"><!-- group -->
+     <a class="block" href="ontwerpproces.html" data-href="page:U279"><!-- Block link tag --></a>
+     <a class="nonblock nontext rounded-corners clearfix grpelem" id="u1146" href="ontwerpproces.html" data-href="page:U279"><!-- column --><!-- m_editable region-id="editable-static-tag-U1146" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" --><div class="position_content" id="u1146_position_content" data-muse-uid="U1146"><!-- m_editable region-id="editable-static-tag-U1148-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1148-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1148" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>research</p></div><!-- /m_editable --><!-- m_editable region-id="editable-static-tag-U1147-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1147-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1147" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>ontwerpen van een gesprek</p></div><!-- /m_editable --></div><!-- /m_editable --></a>
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U1157" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <a class="nonblock nontext rounded-corners grpelem" id="u1157" href="ontwerpproces.html" data-href="page:U279" data-muse-uid="U1157"><!-- simple frame --></a>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U1160" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <a class="nonblock nontext rounded-corners grpelem" id="u1160" href="ontwerpproces.html" data-href="page:U279" data-muse-uid="U1160"><!-- simple frame --></a>
+    <!-- /m_editable -->
+   </div>
+   <div class="clearfix colelem" id="pu1187"><!-- group -->
+    <!-- m_editable region-id="editable-static-tag-U1187" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <div class="pointer_cursor rounded-corners clearfix grpelem" id="u1187" data-muse-uid="U1187"><!-- group -->
+     <a class="block" href="ontwerpproces.html" data-href="page:U279"><!-- Block link tag --></a>
+     <a class="nonblock nontext rounded-corners clearfix grpelem" id="u1188" href="ontwerpproces.html" data-href="page:U279"><!-- column --><!-- m_editable region-id="editable-static-tag-U1188" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" --><div class="position_content" id="u1188_position_content" data-muse-uid="U1188"><!-- m_editable region-id="editable-static-tag-U1214-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1214-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1214" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>deliverable</p></div><!-- /m_editable --><!-- m_editable region-id="editable-static-tag-U1189-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1189-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1189" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>living atlas</p></div><!-- /m_editable --></div><!-- /m_editable --></a>
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U1190" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <div class="pointer_cursor rounded-corners clearfix grpelem" id="u1190" data-muse-uid="U1190"><!-- group -->
+     <a class="block" href="ontwerpproces.html" data-href="page:U279"><!-- Block link tag --></a>
+     <a class="nonblock nontext rounded-corners clearfix grpelem" id="u1191" href="ontwerpproces.html" data-href="page:U279"><!-- column --><!-- m_editable region-id="editable-static-tag-U1191" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" --><div class="position_content" id="u1191_position_content" data-muse-uid="U1191"><!-- m_editable region-id="editable-static-tag-U1217-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1217-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1217" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>deliverable</p></div><!-- /m_editable --><!-- m_editable region-id="editable-static-tag-U1192-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1192-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1192" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>lesmodule</p></div><!-- /m_editable --></div><!-- /m_editable --></a>
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U1193" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <div class="pointer_cursor rounded-corners clearfix grpelem" id="u1193" data-muse-uid="U1193"><!-- group -->
+     <a class="block" href="ontwerpproces.html" data-href="page:U279"><!-- Block link tag --></a>
+     <a class="nonblock nontext rounded-corners clearfix grpelem" id="u1194" href="ontwerpproces.html" data-href="page:U279"><!-- column --><!-- m_editable region-id="editable-static-tag-U1194" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" --><div class="position_content" id="u1194_position_content" data-muse-uid="U1194"><!-- m_editable region-id="editable-static-tag-U1220-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1220-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1220" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>deliverable</p></div><!-- /m_editable --><!-- m_editable region-id="editable-static-tag-U1195-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1195-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1195" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>workshop</p></div><!-- /m_editable --></div><!-- /m_editable --></a>
+    </div>
+    <!-- /m_editable -->
+   </div>
+   <div class="verticalspacer" data-offset-top="517" data-content-above-spacer="516" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+  </div>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   // Decide weather to suppress missing file error or not based on preference setting
+var suppressMissingFileError = false
+</script>
+  <script type="text/javascript">
+   window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
+16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
+l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
+f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Sommige bestanden op de server ontbreken of zijn beschadigd. Wis de cache van de browser en probeer het opnieuw. Als het probleem zich blijft voordoen, kunt u het beste contact opnemen met de auteur van de website.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
+setTimeout(function(){g(!0)},5E3):g()}};
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+window.Muse.assets.check($);/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
+
+</script>
+  <!-- RequireJS script -->
+  <script src="scripts/require.js?crc=4157109226" type="text/javascript" async data-main="scripts/museconfig.js?crc=4153641093" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+   </body>
+</html>

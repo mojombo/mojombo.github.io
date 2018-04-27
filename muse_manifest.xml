@@ -1,0 +1,36 @@
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="yuriwestplat.com/research" resolutions="1x" timestamp="1517060622792">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="master_stappen-met-submenu.css" crc="3995501016" ref="stappen:stap-2:stap-1"/>
+    <file name="index.css" crc="11251222" ref="index"/>
+    <file name="naamloos-16.css" crc="4193191577" ref="naamloos-16"/>
+    <file name="naamloos-15.css" crc="4193191577" ref="naamloos-15"/>
+    <file name="stappen.css" crc="287363742" ref="stappen"/>
+    <file name="stap-2.css" crc="287363742" ref="stap-2"/>
+    <file name="naamloos-17.css" crc="4193191577" ref="naamloos-17"/>
+    <file name="stap-1.css" crc="113826661" ref="stap-1"/>
+    <file name="het-ontwerpproces.css" crc="4193191577" ref="het-ontwerpproces"/>
+    <file name="resultaat.css" crc="330099553" ref="resultaat"/>
+    <file name="ontwerpproces.css" crc="471221713" ref="ontwerpproces"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:het-ontwerpproces:stappen:resultaat:stap-1:stap-2:naamloos-15:naamloos-16:naamloos-17:ontwerpproces"/>
+    <file name="museutils.js" crc="3803043152" ref="index:het-ontwerpproces:stappen:resultaat:stap-1:stap-2:naamloos-15:naamloos-16:naamloos-17:ontwerpproces"/>
+    <file name="whatinput.js" crc="86476730" ref="index:het-ontwerpproces:stappen:resultaat:stap-1:stap-2:naamloos-15:naamloos-16:naamloos-17:ontwerpproces"/>
+    <file name="museconfig.js" crc="4153641093" ref="index:het-ontwerpproces:stappen:resultaat:stap-1:stap-2:naamloos-15:naamloos-16:naamloos-17:ontwerpproces"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:het-ontwerpproces:stappen:resultaat:stap-1:stap-2:naamloos-15:naamloos-16:naamloos-17:ontwerpproces"/>
+    <file name="require.js" crc="4157109226" ref="index:het-ontwerpproces:stappen:resultaat:stap-1:stap-2:naamloos-15:naamloos-16:naamloos-17:ontwerpproces"/>
+    <file name="jquery.musemenu.js" crc="3784699396" ref="stap-1"/>
+    <file name="html5shiv.js" crc="4241844378" ref="stap-1:stap-2:ontwerpproces"/>
+  </folder>
+  <file name="index.html" crc="446381926" seo="true" mt="1517052986792" redirect="true"/>
+  <file name="het-ontwerpproces.html" crc="4029137644" seo="true" mt="1517050905711" redirect="false"/>
+  <file name="stappen.html" crc="4052818661" seo="true" mt="1517058973990" redirect="true"/>
+  <file name="resultaat.html" crc="268969059" seo="true" mt="1517055461428" redirect="true"/>
+  <file name="stap-1.html" crc="18746557" seo="true" mt="1517059114527" redirect="true"/>
+  <file name="stap-2.html" crc="200106086" seo="true" mt="1517058973990" redirect="true"/>
+  <file name="naamloos-15.html" crc="167222408" seo="true" mt="1517044019296" redirect="false"/>
+  <file name="naamloos-16.html" crc="471849155" seo="true" mt="1517044021513" redirect="false"/>
+  <file name="naamloos-17.html" crc="4014466298" seo="true" mt="1517044023665" redirect="false"/>
+  <file name="ontwerpproces.html" crc="469176434" seo="true" mt="1517059635845" redirect="true"/>
+</manifest>

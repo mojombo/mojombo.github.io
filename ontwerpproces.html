@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html class="nojs html css_verticalspacer" lang="nl-NL">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2018.0.0.379"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <script type="text/javascript">
+   // Update the 'nojs'/'js' class on the html node
+document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+
+// Check that all required assets are uploaded and up-to-date
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "ontwerpproces.css"], "outOfDate":[]};
+</script>
+  
+  <title>ontwerpproces</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
+  <link rel="stylesheet" type="text/css" href="css/ontwerpproces.css?crc=471221713" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <script src="https://webfonts.creativecloud.com/abel:n4:all;varela-round:n4:all.js" type="text/javascript"></script>
+  <!--[if lt IE 9]>
+  <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
+  <![endif]-->
+   </head>
+ <body>
+
+  <div class="clearfix borderbox" id="page"><!-- group -->
+   <!-- m_editable region-id="editable-static-tag-U1888-BP_infinity" template="ontwerpproces.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+   <div class="clearfix grpelem" id="u1888-62" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1888" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+    <h3 id="u1888-2">Het Ontwerpproces</h3>
+    <p id="u1888-3">&nbsp;</p>
+    <p id="u1888-5">Met een Conversational Interface kan een computer een eenvoudig gesprek voeren met een mens. De computer interpeteert woorden en woordpatronen en kan reageren volgens vooraf ingestelde regels. Het ontwerpproces definieert deze interactie-regels en structureert het gesprek.</p>
+    <p id="u1888-6">&nbsp;</p>
+    <p id="u1888-8">Strategie</p>
+    <p id="u1888-9">&nbsp;</p>
+    <p id="u1888-14">De eerste ontwerp-stappen verschillen niet van het ontwerp van een GUI. Een beschrijving van de strategische doelen van het project, de problemen van de stakeholders&nbsp; en de geschiktheid van voice interface als oplossing.&nbsp; De denkbare oplossingen zijn beschreven in een <a class="nonblock" href="ontwerpproces.html" data-href="page:U279">use case</a>.</p>
+    <p id="u1888-15">&nbsp;</p>
+    <h3 id="u1888-17">2.Scenario</h3>
+    <p id="u1888-19">Met behulp van scenario’s ontwerpen we de informatie-uitwisseling tussen een systeem en de gebruikers. In deze case is dat het gesprek tussen een smart agent (wilbur), een floor manager (gebruiker) en een leidinggevende (regisseur).</p>
+    <p id="u1888-20">&nbsp;</p>
+    <p id="u1888-22">3.User Intents</p>
+    <p id="u1888-24">Met behulp van de scenario’s worden in User Intents de doelen van de gebruiker en de bijbehorende woorden en zinnen beschreven. Key User Inputs of Utterances zijn woorden of woordpatronen die een User Intent triggeren. System Outputs zijn de antwoorden aan de gebruiker én triggers van server-side processen die horen bij een User Intent.</p>
+    <p id="u1888-25">&nbsp;</p>
+    <p id="u1888-27">4.Gedetailleerde Flow</p>
+    <p id="u1888-29">Na een snelle gebruikerstest en feedback van stakeholders worden de scenario’s uitgewerkt in een Gedetailleerde Flow van alle interactie tussen het smart systeem en de gebruikers, inclusief edge cases en default intents. Hierbij wordt vastgelegd met welke api’s en databronnen wordt gecommuniceerd, en welke data wordt bewaard en (her)gebruikt voor de AI. Naast een interactie-model geeft dit een functionele beschrijving voor het technisch proces [6].</p>
+    <p id="u1888-30">&nbsp;</p>
+    <p id="u1888-32">5.Dialoog Script, Persoonlijkheid van de Agent</p>
+    <p id="u1888-34">Alle teksten en alle mogelijke variaties van utterances worden uitgeschreven in een Dialoog Script. Een gedetailleerd ontworpen persoonlijkheid van Wilbur bepaalt taalgebruik en de tone-of-voice. Na het testen van het script in een prototype is het gesprek klaar voor productie.</p>
+    <p id="u1888-35">&nbsp;</p>
+    <p id="u1888-37">6.Productie</p>
+    <p id="u1888-39">Met een web-tool “bouw” wordt de volledige conversatie in een WYSYWIG interface gemaakt, en kan de dialoog met een interactief prototype worden getest. Na prototyping moet de applicatie gekoppeld aan de back-end en de interface van de eindgebruikers. [zie Stack en Impediments]</p>
+    <p id="u1888-40">&nbsp;</p>
+    <p id="u1888-42">Stack, techniek, vaardigheden [B].</p>
+    <p id="u1888-44">De stack bestaat uit verschillende componenten met web-interfaces:&nbsp; een online NLP Engine om het gesprek in te “bouwen” (intents, utterances, language processing, AI). Export van dit gesprek als JSON naar een fulfillment-/webserver (API calls, webhooks), die op zijn beurt communiceert met de eigen back-end systemen. De eindgebruikers communiceren met dit systeem via een Delivery interface: smart speakers, embedded devices, chatbots, dedicated apps of HTML/CSS. Op mobiel moet de microfoon en de speaker van het device worden aangesproken. Ik zou ik kiezen voor een kleine native test app. [zie Impediments]</p>
+    <p id="u1888-45">&nbsp;</p>
+    <p id="u1888-47">Impediments</p>
+    <p id="u1888-49">Taal Voice User Interface werkt op dit moment nog niet in het Nederlands. Naar verwachting zal dit in 2019 wel het geval zijn; tot die tijd zijn we beperkt tot Engels en de grote Europese talen.</p>
+    <p id="u1888-50">&nbsp;</p>
+    <p id="u1888-52">Delivery interface De delivery interface op een mobiele telefoon gebruikt de microfoon en de speaker van het device. De beste oplossing hiervoor is een custom native app die communicatie. Het is ook mogelijk om dit in HTML/CSS te doen, maar in mijn ervaring is dit nog niet erg stabiel.</p>
+    <p id="u1888-53">&nbsp;</p>
+    <p id="u1888-55">Werkzaamheden</p>
+    <p id="u1888-57">1-6 Designer</p>
+    <p id="u1888-59">6 Back-End, Front-End</p>
+    <p id="u1888-60">&nbsp;</p>
+   </div>
+   <!-- /m_editable -->
+   <div class="clearfix grpelem" id="pu1953"><!-- column -->
+    <!-- m_editable region-id="editable-static-tag-U1953" template="ontwerpproces.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <div class="pointer_cursor MuseLinkActive rounded-corners clearfix colelem" id="u1953" data-muse-uid="U1953"><!-- group -->
+     <a class="block" href="ontwerpproces.html" data-href="page:U279"><!-- Block link tag --></a>
+     <a class="nonblock nontext rounded-corners clearfix grpelem" id="u1954" href="stap-1.html" data-href="page:U255"><!-- column --><!-- m_editable region-id="editable-static-tag-U1954" template="ontwerpproces.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" --><div class="position_content" id="u1954_position_content" data-muse-uid="U1954"><!-- m_editable region-id="editable-static-tag-U1956-BP_infinity" template="ontwerpproces.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1956-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1956" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>research</p></div><!-- /m_editable --><!-- m_editable region-id="editable-static-tag-U1955-BP_infinity" template="ontwerpproces.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1955-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1955" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>&nbsp;ONTWERPPROCES</p></div><!-- /m_editable --></div><!-- /m_editable --></a>
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U1969-BP_infinity" template="ontwerpproces.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+    <div class="clearfix colelem" id="u1969-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1969" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+     <p>De stappen in het ontwerpproces</p>
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U1961" template="ontwerpproces.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <div class="pointer_cursor MuseLinkActive rounded-corners clearfix colelem" id="u1961" data-muse-uid="U1961"><!-- group -->
+     <a class="block" href="ontwerpproces.html" data-href="page:U279"><!-- Block link tag --></a>
+     <a class="nonblock nontext MuseLinkActive rounded-corners clearfix grpelem" id="u1962" href="ontwerpproces.html" data-href="page:U279"><!-- column --><!-- m_editable region-id="editable-static-tag-U1962" template="ontwerpproces.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" --><div class="position_content" id="u1962_position_content" data-muse-uid="U1962"><!-- m_editable region-id="editable-static-tag-U1964-BP_infinity" template="ontwerpproces.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1964-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1964" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>deliverable</p></div><!-- /m_editable --><!-- m_editable region-id="editable-static-tag-U1963-BP_infinity" template="ontwerpproces.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1963-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1963" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>lesmodule</p></div><!-- /m_editable --></div><!-- /m_editable --></a>
+    </div>
+    <!-- /m_editable -->
+   </div>
+   <div class="clearfix grpelem" id="pu1957"><!-- column -->
+    <!-- m_editable region-id="editable-static-tag-U1957" template="ontwerpproces.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <div class="pointer_cursor MuseLinkActive rounded-corners clearfix colelem" id="u1957" data-muse-uid="U1957"><!-- group -->
+     <a class="block" href="ontwerpproces.html" data-href="page:U279"><!-- Block link tag --></a>
+     <a class="nonblock nontext MuseLinkActive rounded-corners clearfix grpelem" id="u1958" href="ontwerpproces.html" data-href="page:U279"><!-- column --><!-- m_editable region-id="editable-static-tag-U1958" template="ontwerpproces.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" --><div class="position_content" id="u1958_position_content" data-muse-uid="U1958"><!-- m_editable region-id="editable-static-tag-U1960-BP_infinity" template="ontwerpproces.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1960-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1960" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>research</p></div><!-- /m_editable --><!-- m_editable region-id="editable-static-tag-U1959-BP_infinity" template="ontwerpproces.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1959-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1959" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>ontwerpmethode</p></div><!-- /m_editable --></div><!-- /m_editable --></a>
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U1970-BP_infinity" template="ontwerpproces.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+    <div class="clearfix colelem" id="u1970-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1970" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+     <p>Het ontwikkelen van de ontwerp-methode in het onderwijs</p>
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U1965" template="ontwerpproces.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+    <div class="pointer_cursor MuseLinkActive rounded-corners clearfix colelem" id="u1965" data-muse-uid="U1965"><!-- group -->
+     <a class="block" href="ontwerpproces.html" data-href="page:U279"><!-- Block link tag --></a>
+     <a class="nonblock nontext MuseLinkActive rounded-corners clearfix grpelem" id="u1966" href="ontwerpproces.html" data-href="page:U279"><!-- column --><!-- m_editable region-id="editable-static-tag-U1966" template="ontwerpproces.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" --><div class="position_content" id="u1966_position_content" data-muse-uid="U1966"><!-- m_editable region-id="editable-static-tag-U1968-BP_infinity" template="ontwerpproces.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1968-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1968" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>deliverable</p></div><!-- /m_editable --><!-- m_editable region-id="editable-static-tag-U1967-BP_infinity" template="ontwerpproces.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" --><div class="clearfix colelem" id="u1967-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-muse-uid="U1967" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content --><p>workshop</p></div><!-- /m_editable --></div><!-- /m_editable --></a>
+    </div>
+    <!-- /m_editable -->
+   </div>
+   <div class="verticalspacer" data-offset-top="1692" data-content-above-spacer="1691" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+  </div>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   // Decide weather to suppress missing file error or not based on preference setting
+var suppressMissingFileError = false
+</script>
+  <script type="text/javascript">
+   window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
+16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
+l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
+f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Sommige bestanden op de server ontbreken of zijn beschadigd. Wis de cache van de browser en probeer het opnieuw. Als het probleem zich blijft voordoen, kunt u het beste contact opnemen met de auteur van de website.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
+setTimeout(function(){g(!0)},5E3):g()}};
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+window.Muse.assets.check($);/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
+
+</script>
+  <!-- RequireJS script -->
+  <script src="scripts/require.js?crc=4157109226" type="text/javascript" async data-main="scripts/museconfig.js?crc=4153641093" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+   </body>
+</html>
