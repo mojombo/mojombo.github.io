@@ -1,0 +1,12 @@
+---
+layout: post
+category: cheese
+title: title
+---
+
+{{ page.title }}
+================
+
+<p class="meta">some kind of meta tag</p>
+
+this is body text
