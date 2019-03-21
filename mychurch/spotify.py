@@ -8,13 +8,14 @@ def extract(query):
   gain['query'] = query
   query = query.replace(' - ','').replace(' ', '+')
   r = fetch('https://api.spotify.com/v1/search?q=%s&type=album', query)
-  try:
-    gain["url"] = r['albums']['items'][0]['external_urls']['spotify']
-    gain["image"] = r['albums']['items'][0]['images'][1]['url']
-    r = fetch('https://api.spotify.com/v1/albums/%s', r['albums']['items'][0]['id'])
-    gain["year"] = r['release_date'][0:4]
-  except:
-    pass
+  print r
+#  try:
+#    gain["url"] = r['albums']['items'][0]['external_urls']['spotify']
+#    gain["image"] = r['albums']['items'][0]['images'][1]['url']
+#    r = fetch('https://api.spotify.com/v1/albums/%s', r['albums']['items'][0]['id'])
+#    gain["year"] = r['release_date'][0:4]
+#  except:
+#    pass
   return gain
 
 fi = open('albums.txt', 'r')
