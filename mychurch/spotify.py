@@ -6,7 +6,7 @@ def fetch(url, param):
 def extract(query):
   gain = {}
   gain['query'] = query
-  query = query.replace(' ', '+')
+  query = query.replace(' - ','').replace(' ', '+')
   r = fetch('https://api.spotify.com/v1/search?q=%s&type=album', query)
   try:
     gain["url"] = r['albums']['items'][0]['external_urls']['spotify']
