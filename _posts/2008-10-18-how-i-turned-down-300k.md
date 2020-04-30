@@ -15,7 +15,7 @@ No dia 11 de abril de 2020 o [Google e a Apple](https://www.forbes.com/sites/jod
 Não consigo imaginar o que poderia dar errado com uma ideia destas. Talvez a melhor forma de colocar o que penso sobre isso seja citar um dos Pais Fundadores dos Estados Unidos da América, Benjamin Franklin: 
 
 >"Those who would give up essential Liberty, to purchase a little temporary Safety, deserve neither Liberty nor Safety."
-
+ 
 Ou, em bom português: aqueles que renunciam às __liberdades__ essenciais para comprar um pouco de segurança temporária não merecem nem a __liberdade__ nem a segurança. O grafo exagerado na palavra liberdade é meu. Veja, por exemplo o que está acontecendo na nossa casa. Quase todos os dias vemos governadores, e prefeitos, tomando atitudes totalmente abusivas e ditatoriais usando a pandemia como desculpa. São pessoas cheias de boas intenções que são forçadas a agir desta forma já que as pessoas insistem e continuar indo às praias, parques e praças das suas cidades. 
 
 E acredito que alguns de vocês estejam de acordo com isso. Afinal temos milhares de pessoas em São Paulo, Rio de Janeiro, Belo Horizonte, Curitiba e qualquer outra cidade que consiga pensar. Que não estão respeitando a quarentena. Estas pessoas estão pondo em riso a vida de toda a sociedade. Neste caso, medidas extremas são justificadas. Não é isso? Não é essa a razão para eles estarem sendo presos? 
