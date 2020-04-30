@@ -10,11 +10,11 @@ title: O Caminho do Inferno é Pavimentado com boas intenções
 
 No dia 11 de abril de 2020 o [Google e a Apple](https://www.forbes.com/sites/jodywestby/2020/04/11/apple-and-google-announce-new-approach-to-coronavirus-tracking-that-counters-intrusive--government-use-of-mobile-app-data/#2345526e28c9), anunciaram que irão disponibilizar um conjunto de ferramentas para a localização de pessoas portadoras do vírus corona utilizando o bluetooth. O objetivo é permitir que as pessoas infectadas, voluntariamente, possam alertar a todos a sua volta em um raio de 8 m (mais ou menos o raio de ação do bluetooth) que estão infectadas. Estão cheios de boas intenções: 
 
-**NOTE: “Through close cooperation and collaboration with developers, governments, and public health providers, we hope to harness the power of technology to help countries around the world slow the spread of COVID-19 and accelerate the return of everyday life.”
+**NOTE: “Through close cooperation and collaboration with developers, governments, and public health providers, we hope to harness the power of technology to help countries around the world slow the spread of COVID-19 and accelerate the return of everyday life.”**
 
 Não consigo imaginar o que poderia dar errado com uma ideia destas. Talvez a melhor forma de colocar o que penso sobre isso seja citar um dos Pais Fundadores dos Estados Unidos da América, Benjamin Franklin: 
 
-**NOTE: "Those who would give up essential Liberty, to purchase a little temporary Safety, deserve neither Liberty nor Safety."
+**NOTE: "Those who would give up essential Liberty, to purchase a little temporary Safety, deserve neither Liberty nor Safety."**
  
 Ou, em bom português: aqueles que renunciam às __liberdades__ essenciais para comprar um pouco de segurança temporária não merecem nem a __liberdade__ nem a segurança. O grafo exagerado na palavra liberdade é meu. Veja, por exemplo o que está acontecendo na nossa casa. Quase todos os dias vemos governadores, e prefeitos, tomando atitudes totalmente abusivas e ditatoriais usando a pandemia como desculpa. São pessoas cheias de boas intenções que são forçadas a agir desta forma já que as pessoas insistem e continuar indo às praias, parques e praças das suas cidades. 
 
