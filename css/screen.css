@@ -187,12 +187,15 @@ ul.posts {
     font-style: italic;
   }
 
+  /* coisa horível */
+  
   #post .note {
     padding-left: 1em;
     border-left: 5px solid #a00;
     font-style: italic;
-  }
+  }  
 
+  
   /* terminal */
 
   #post pre.terminal {
