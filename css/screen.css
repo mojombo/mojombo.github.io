@@ -87,7 +87,7 @@ ul.posts {
 }
 
 .title {
-  color: #a00;
+  color: #1016d6
   font-weight: bold;
   margin-bottom: 2em;
 }
@@ -191,7 +191,7 @@ ul.posts {
   
   #post .note {
     padding-left: 1em;
-    border-left: 5px solid #a00;
+    border-left: 5px solid #1016d6;
     font-style: italic;
   }  
 
