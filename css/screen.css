@@ -181,6 +181,18 @@ ul.posts {
     padding: 1em 0;
   }
 
+  #post blockquote {
+    padding-left: 1em;
+    border-left: 5px solid #ddd;
+    font-style: italic;
+  }
+
+  #post .note {
+    padding-left: 1em;
+    border-left: 5px solid #a00;
+    font-style: italic;
+  }
+
   /* terminal */
 
   #post pre.terminal {
