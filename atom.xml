@@ -3,14 +3,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Tom Preston-Werner</title>
+ <title>Frank de Alcantara</title>
  <link href="http://frankalcantara.com/atom.xml" rel="self"/>
  <link href="http://frankalcantara.com"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://tom.preston-werner.com/</id>
+ <id>http://frankalcantara.com/</id>
  <author>
-   <name>Tom Preston-Werner</name>
-   <email>tom@mojombo.com</email>
+   <name>Frank Alcantara</name>
+   <email>frank.alcantara@gmail.com</email>
  </author>
 
  {% for post in site.posts %}

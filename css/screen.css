@@ -190,8 +190,11 @@ ul.posts {
   /* coisa horível */
   
   #post .note {
-    padding-left: 1em;
+    padding-left: 2em;
+    padding-right: 1em; 
     border-left: 5px solid #1016d6;
+    font-style: italic;
+    background-color: #f9f9f9;
     font-style: italic;
   }  
 
