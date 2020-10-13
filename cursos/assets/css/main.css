@@ -112,6 +112,7 @@ input, select, textarea {
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
 		color: #e44c65;
+		font-weight: bold;
 		text-decoration: none;
 	}
 
@@ -122,7 +123,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #ffffff;
-		font-weight: 300;
+		font-weight: bold;
 	}
 
 	em, i {
