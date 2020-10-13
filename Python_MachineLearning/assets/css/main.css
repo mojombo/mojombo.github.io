@@ -2972,7 +2972,7 @@ input, select, textarea {
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
-		height: 100vh;
+		height: 120vh;
 		overflow: hidden;
 		position: relative;
 	}
@@ -3457,7 +3457,7 @@ input, select, textarea {
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
-		min-height: 100vh;
+		min-height: 120vh;
 		position: relative;
 		text-align: center;
 		z-index: 21;
@@ -3466,7 +3466,7 @@ input, select, textarea {
 		#banner:before {
 			content: '';
 			display: inline-block;
-			height: 100vh;
+			height: 120vh;
 			vertical-align: middle;
 			width: 1%;
 		}
@@ -3596,8 +3596,20 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 13pt;
 			}
-
+		
 	}
+
+
+	@media screen and (max-width: 1366px) {
+
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 13pt;
+			}
+		
+	}
+
 
 /* Large */
 
@@ -3610,6 +3622,7 @@ input, select, textarea {
 			}
 
 		/* Spotlight */
+		
 
 			.spotlight.top .content {
 				padding: 3.825em 0 1.825em 0;
@@ -3622,6 +3635,7 @@ input, select, textarea {
 			.spotlight.left .content, .spotlight.right .content {
 				padding: 4.5em 2.5em;
 				width: 25em;
+				
 			}
 
 		/* Wrapper */
@@ -3837,11 +3851,11 @@ input, select, textarea {
 
 			#banner {
 				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
-				min-height: calc(100vh - 44px);
+				min-height: calc(120vh - 44px);
 			}
 
 				#banner:before {
-					height: calc(100vh - 44px);
+					height: calc(120vh - 44px);
 				}
 
 				#banner .content {
