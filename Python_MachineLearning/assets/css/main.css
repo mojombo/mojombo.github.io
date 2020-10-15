@@ -4124,3 +4124,24 @@ input, select, textarea {
 					}
 
 	}
+
+	ol {
+		list-style: none;
+		counter-reset: my-awesome-counter;
+	  }
+	  ol li {
+		counter-increment: my-awesome-counter;
+		counter-increment: my-awesome-counter;
+		line-height: 1.5em;
+		margin-bottom: 1em;
+	  }
+	  ol li::before {
+		content: counter(my-awesome-counter) ". ";
+		color: white;
+		font-size: 1.5em;
+		font-weight: bold;
+		
+	  }
+	  
+	  
+	  
