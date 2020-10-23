@@ -1,0 +1,185 @@
+.switch[type="checkbox"] {
+
+	+ label {
+
+		&::before {
+			background: mix(color(secondary, 3), color(primary, 1));
+			background: linear-gradient(to right, color(secondary, 3) 0, color(primary, 1) 100%);
+		}
+
+		&::after {
+			background: color(bg, 1);
+		}
+	}
+
+	&:checked {
+
+		+ label {
+
+			&::before {
+				background: mix(color(tertiary, 1), color(tertiary, 3));
+				background: linear-gradient(to right, color(tertiary, 1) 0, color(tertiary, 3) 100%);
+			}
+		}
+	}
+}
+
+.asset-light,
+.asset-dark {
+	visibility: hidden;
+	opacity: 0;
+}
+
+.is-loaded {
+
+	.asset-light,
+	.asset-dark {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+.asset-dark {
+	display: none;
+}
+
+.lights-off {
+
+	.asset-light {
+		display: none;
+	}
+
+	.asset-dark {
+		display: block;
+	}
+
+	color: color(typography, 2i);
+
+	a {
+		color: color(typography, 2i);
+	}
+
+	h1, h2, h3, h4, h5, h6,
+	.h1, .h2, .h3, .h4, .h5, .h6 {
+		color: color(typography, 1i) !important;
+	}
+
+	&.is-boxed {
+	    background: lighten(desaturate(color(bg, 1i), 8%), 3%);
+	}
+
+	.body-wrap {
+	    background: color(bg, 1i);
+	}
+
+	.boxed-container {
+	    @include shadow(dark);
+	}
+
+	hr {
+		@include divider(false, dark);
+	}
+
+	.has-top-divider {
+	    @include divider(before, dark);
+	}
+
+	.has-bottom-divider {
+	    @include divider(after, dark);
+	}
+}
+
+// Transitions
+body,
+a,
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	transition: color .25s ease;
+}
+
+.is-boxed,
+.body-wrap,
+.has-top-divider,
+.has-bottom-divider::after,
+hr::after,
+.feature-title::after {
+	transition: background .25s ease;
+}
+
+.boxed-container {
+	transition: box-shadow .15s ease;
+}
+
+// Animations
+@keyframes fadeInLogo {
+	0% {
+    	opacity: 0;
+    	transform: scale(0.5);
+	}
+}
+
+@keyframes fadeInLeftMedia {
+	0% {
+    	opacity: 0;
+    	transform: scale(0.8) translate3d(40px, 10px, 0);
+	}
+	30% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeInLeftIllustration {
+	0% {
+    	opacity: 0;
+    	transform: scale(0.95) translate3d(40px, 10px, 0);
+	}
+}
+
+@keyframes fadeUpBox {
+	0% {
+    	opacity: 0;
+    	transform: scale(0.95) translate3d(-40px, 20px, 0);
+	}
+	30% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+    	opacity: 0;
+	}
+}
+
+.is-loaded {
+
+	.header-logo-image {
+		animation: fadeInLogo .35s both cubic-bezier(0.3, 0, 0.2, 1);
+		will-change: transform;
+	}
+
+	.hero-media-image {
+		animation: fadeInLeftMedia 1s .2s both cubic-bezier(0.3, 0, 0.2, 1);
+		will-change: transform;
+	}
+
+	.hero-media-illustration-image {
+		animation: fadeInLeftIllustration 1s .2s both cubic-bezier(0.3, 0, 0.2, 1);
+		will-change: transform;
+	}
+
+	.features-box {
+		animation: fadeUpBox 1s .2s both cubic-bezier(0.3, 0, 0.2, 1);
+		will-change: transform;
+	}
+
+	.header-illustration-image {
+		animation: fadeIn 1s both cubic-bezier(0.3, 0, 0.2, 1);
+		will-change: transform;
+	}
+
+	.features-illustration {
+		animation: fadeIn 1s .2s both cubic-bezier(0.3, 0, 0.2, 1);
+		will-change: transform;
+	}
+}
