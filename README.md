@@ -1,7 +1,8 @@
-# This is the data for my blog
+# Esse é o site que eu escolhi para ser meu portifólio.
 
-It is automatically transformed by [Jekyll](http://github.com/mojombo/jekyll)
-into a static site whenever I push this repository to GitHub.
+Ele foi "forkeado" do criador do github através do [Jekyll](http://github.com/mojombo/jekyll)
+para um site estático que eu consigo mexer diretamente no meu celular. Bem mais fácil do que ficar
+mexendo no wordpress. Acredite
 
 I was tired of having my blog posts end up in a database off on some remote
 server. That is backwards. I've lost valuable posts that way. I want to author
@@ -10,7 +11,7 @@ customizable any way I please. It should take care of creating a feed for me.
 And most of all, my site should be stored on GitHub so that I never lose data
 again.
 
-## License
+## Licença
 
 The following directories and their contents are Copyright Tom Preston-Werner.
 You may not reuse anything therein without my permission:
