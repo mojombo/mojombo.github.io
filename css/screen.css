@@ -87,13 +87,13 @@ ul.posts {
 }
 
 .title {
-  color: #a00;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   margin-bottom: 2em;
 }
 
   .site .title a {
-    color: #a00;
+    color: rgb(0, 0, 0);
     text-decoration: none;
   }
 
@@ -117,7 +117,7 @@ ul.posts {
 
   .site .footer {
     font-size: 80%;
-    color: #666;
+    color: rgb(3, 3, 3);
     border-top: 4px solid #eee;
     margin-top: 2em;
     overflow: hidden;
