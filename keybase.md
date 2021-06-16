@@ -19,13 +19,13 @@ To claim this, I am signing this object:
       "username": "leocoelho_jor"
     },
     "merkle_root": {
-      "ctime": 1623723910,
-      "hash": "e5e10d1e4889744561366677ba549dd9a10bea8063bcd5f4f721ddf6c1ed00e29f3d998747918066ef6d738d79a6150d0f743093669579fe1c5f3c7988f37bae",
-      "hash_meta": "5162ae5ce7fb7fc10e681f536ceb3e6ff43174c1df95b32f2ff71b4019d1f352",
-      "seqno": 20184324
+      "ctime": 1623810716,
+      "hash": "89b36d706c2bedca9f798466858d81b71c6d347ed8ad0c68fc725f48e7f07bcc8efe38c82d7ef2172e8d771c4fa1e5fa124cecb9efdef27e11eba4ba8bde45b2",
+      "hash_meta": "c05f1564e9d9313110621b914b6663bf95957a6958e2e8355548acd450d0e857",
+      "seqno": 20192399
     },
     "service": {
-      "entropy": "6nojnmax4h0DljkpSj53i5P5",
+      "entropy": "NL31/Tuc3eBj8WV1sTy3qdPR",
       "name": "github",
       "username": "leocoelho-jor"
     },
@@ -36,10 +36,10 @@ To claim this, I am signing this object:
     "name": "keybase.io go client",
     "version": "5.6.0"
   },
-  "ctime": 1623723945,
+  "ctime": 1623810717,
   "expire_in": 504576000,
-  "prev": "102b005ba6d1c4e7c8454b69f76796e19a2567a3e4b32d05bc8416f9bcc35804",
-  "seqno": 24,
+  "prev": "fd9013c8a4cecf86908c66ffea7954f73d660154b1972255c636efcfe6604264",
+  "seqno": 27,
   "tag": "signature"
 }
 ```
@@ -47,7 +47,7 @@ To claim this, I am signing this object:
 with the key [ASBhhoKtq24gejxng0pPFcq3wo0iOlWhLjNO1yxReqr2ego](https://keybase.io/leocoelho_jor), yielding the signature:
 
 ```
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgYYaCratuIHo8Z4NKTxXKt8KNIjpVoS4zTtcsUXqq9noKp3BheWxvYWTESpcCGMQgECsAW6bRxOfIRUtp92eW4ZolZ6Pksy0FvIQW+bzDWATEIMg2ScRcyGSxxLQtw5E52joLzJzTDY51sRCVBcj53s4VAgHCo3NpZ8RADfNY1S7CmNkncPR5TKxe6rXlBl44pCrZijV/EzDGbGTPwVxcbMRkLmziO8Dr+TgFo2YATpiFkFRO70C5DMYVD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGymeUe3EineP2Cfa06MKngjEbtjl21yMsvUOytl0OGmo3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgYYaCratuIHo8Z4NKTxXKt8KNIjpVoS4zTtcsUXqq9noKp3BheWxvYWTESpcCG8Qg/ZATyKTOz4aQjGb/6nlU9z1mAVSxlyJVxjbvz+ZgQmTEINqhdyqycLPJJ84Ytf2xCLDcVoupgRqwHON01j08B9kCAgHCo3NpZ8RAfTXo2H4tzOnvNvHuAN0xxhqIn/TRno1hkDUqnVqbbjE0La84a313GnDxNdNCGSJVZw4qkHuZlYSq/MC58P/lDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKmU2ClW/z4KpHCVRLBXl655K5nHJ87vd5ByEgJnX50vo3RhZ80CAqd2ZXJzaW9uAQ==
 
 ```
 
@@ -64,4 +64,3 @@ Consider the [keybase command line program](https://keybase.io/download).
 ```bash
 # look me up
 keybase id leocoelho_jor
-```
