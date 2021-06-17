@@ -10,56 +10,12 @@ modified: 2021-06-16T21:17:13-03:00
 
 <p class="meta">16 junho de 2021 - Rio de Janeiro </p>
 
-Over the last year I've had a chance to learn a lot more about early stage
-funding and made angel investments in a handful of startups. So far I've
-restricted my involvement to companies with ideas in which I have significant
-domain knowledge. I also insist on founders with relentless product focus, a
-fierce desire to help their customers be more awesome, and excellent
-communication skills. I recently met just such a company, with just such
-founders, tackling a problem that has personally caused me much pain.
+curiosity
 
-The company is [Replicated](http://replicated.com), and founders Grant Miller
-and Marc Campbell are making it easier to roll out an on-prem Enterprise
-offering based on an existing cloud-based SaaS product.
+This is my main characteristic as a professional. Due to her, I've already written – and photographed – a little bit of everything.
 
-At GitHub, we burned through **a lot** of developer cycles building our own
-installer (several times), securing the installation environment, coding an
-automated licensing management system, integrating single sign-on services
-(LDAP, Active Directory, CAS, etc, etc), building out a searchable audit system,
-supporting customer-reviewable support bundles (logs and other diagnostic
-output), allowing numerous backup strategies, and countless other
-Enterprise-specific features that were killing our Enterprise deals. All of this
-on top of hiring and building out the necessary sales, support, and accounting
-teams to create a smooth Enterprise experience for our customers.
+I've already written about how captchas delay the lives of many deaf people in Brazil; I introduced the deaf political community and its – still small – representation in Brazilian elections; I revealed arms of a conspiratorial movement between candidates for councilor; I explained about a very polarized Brazilian neologism that brought Brazil and Ukraine together; I remotely covered the Suzano Massacre and its sociological and psychological consequences for Brazilian adolescents and youth; I explained how Brazilian trolling works for foreigners; I investigated how musical instruments are forged – and sold – in Brazil; I exposed flaws in the police investigation into the death of a samba dancer in Rio de Janeiro; I showed how a teenager from the Baixada Fluminense was arrested by mistake and, months later, killed by mistake along with his friend who, also by mistake, was accused of robbery by the police; I narrated, with text and photo, how children saw the occupation of Complexo do Alemão through drawings; I confirmed how “Evidence” is THE karaoke MUSIC that unites Brazil, in addition to several other coverages, whether positive or negative. You can't always choose the agenda.
 
-Replicated provides common Enterprise functionality (much of what I mentioned
-above, and all of it eventually) that you can wrap around your SaaS product,
-resulting in a first-class on-prem product in a fraction of the time. Beyond
-just technology, Replicated will help you understand your Enterprise customers
-through documentation on best practices and insight into the requirements and
-reasons that large companies desire the features they do. Until you can
-empathise with your customer (which is very hard to do as a fast-moving SaaS
-startup), you'll never build the best product possible.
+However, I don't just focus on the text. As a photojournalist, I have covered the preparations for the 2016 Olympics and the social consequences of this great event; I helped to represent the struggle of black women in a Rio Brazil that was still quite racist. Multipurpose, I've also acted as a content producer for foreign television (I speak English beyond the “book is on the table”) during the Olympics and in covering a murder in Australia that had repercussions in Rio de Janeiro.
 
-Getting into the Enterprise market will always be hard. But by reducing the
-technology burden, Replicated plans to erase much of the pain so you can focus
-on the other human-centric tasks. Not only am I an investor in Replicated, I
-believe in their mission and their founders so much that I've joined as an
-advisor. I understand what the uphill slog of the SaaS to Enterprise climb feels
-like, and I'm going to do my best to ensure you don't have to suffer it as much
-as I did.
-
-I'm also pleased to announce that Travis CI is now shipping their Enterprise
-product using Replicated. To see what the installation process is like, [watch
-Grant install Travis CI
-Enterprise](https://www.youtube.com/watch?v=ViN-qkcovL0&feature=youtu.be) on a
-fresh server in about seven minutes. For a deeper dive, Travis CI has also
-published a blog post covering some of their process in [getting their
-Enterprise installer ready using
-Replicated](http://blog.travis-ci.com/2015-06-19-how-we-improved-travis-ci-installation/).
-
-In the coming weeks, you'll start to see other well-known startups launching (or
-re-launching) Enterprise versions of their SaaS software on top of Replicated.
-If you're looking to do the same, and want to save yourself a lot of heartache,
-email [contact@replicated.com](mailto:contact@replicated.com), and start
-focusing on what matters the most: your unique and kickass product.
+In the meantime, I have also worked as a press advisor, helping the company that makes the Communication of IMPA (Institute of Pure and Applied Mathematics) to renew the website of this prestigious institution with exclusive coverage on mathematics (look at the curiosity there again, helping) and to win prizes in the area. There's more, but despite the space here is infinite, better leave it to another space.
