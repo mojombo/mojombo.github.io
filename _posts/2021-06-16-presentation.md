@@ -1,12 +1,14 @@
 ---
 layout: post
-title: Replicated - An Easier Path from SaaS to Enterprise
+title: Presentation (ENG)
+tags: [english]
+modified: 2021-06-16T21:17:13-03:00
 ---
 
 {{ page.title }}
 ================
 
-<p class="meta">19 Jun 2015 - San Francisco</p>
+<p class="meta">16 junho de 2021 - Rio de Janeiro </p>
 
 Over the last year I've had a chance to learn a lot more about early stage
 funding and made angel investments in a handful of startups. So far I've
