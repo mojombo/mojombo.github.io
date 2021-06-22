@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Instituto de Matemática Pura e Aplicada
+title: Museu Villa-Lobos
 ---
 
 {{ page.title }}
