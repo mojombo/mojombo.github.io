@@ -135,7 +135,7 @@ ul.posts {
     .site .footer .rss {
       margin-top: 1.1em;
       margin-right: -.2em;
-      float: right;
+      float: left;
     }
 
       .site .footer .rss img {
