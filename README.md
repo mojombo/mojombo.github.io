@@ -9,7 +9,7 @@ hyperlinkam para algum trabalho que eu fiz.
 
 ## Licença
 
-Os trabalhos nos diretórios a seguir são de minha autoria e dos veículos onde eles foram
+Os trabalhos nos diretórios a seguir - Trabalhos mais recentes, Melhores trabalhos e outros projetos - são de minha autoria e dos veículos onde eles foram
 publicados. Portanto não podem ser reutilizados sem crédito e com alterações. As postagens 
 no BLOG podem ser compartilhadas na íntegra e, se possível, com crédito, mas também não
 vou ficar vendo né.
