@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Presentation (ENG)
-tags: [english]
+tags: english
 modified: 2021-06-16T21:17:13-03:00
 ---
 
