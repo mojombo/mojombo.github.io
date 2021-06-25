@@ -9,7 +9,6 @@ modified: 2021-06-23T19:14:21-03:00
 
 <p class="meta">3 de Janeiro 2017 - Rio de Janeiro</p>
 
-```md
 1066
 : September. Harald Hardrada, King of Norway, invades England
 : October. William of Normandy defeats and kills Harold II at Hastings.
@@ -35,4 +34,3 @@ modified: 2021-06-23T19:14:21-03:00
 
 1087
 : William II is crowned at Westminster Abbey.
-```
