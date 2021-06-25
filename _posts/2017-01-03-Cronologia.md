@@ -11,7 +11,7 @@ modified: 2021-06-23T19:14:21-03:00
 
 2010
 
->  Graduação em Jornalismo na FACHA
+> Graduação em Jornalismo na FACHA
 
 2010-2012
 
