@@ -11,5 +11,5 @@ modified: 2021-07-03T14:14:21-03:00
 
 Além do meu instagram eu tenho também um tumblr. Em ambos eu coloco minhas fotos. Eis a divisão:
 
-- Instagram : stories e ensaios completos. 
-- tumblr: fotos aleatórias, experimentais etc. Fotos do dia a dia 
+- [Instagram](https://www.instagram.com/leocoelho_jor/) : stories e ensaios completos. 
+- [tumblr](https://leocoelho-jor.tumblr.com/): fotos aleatórias, experimentais etc. Fotos do dia a dia 
