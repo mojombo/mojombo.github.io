@@ -46,7 +46,7 @@ future.
 
 Since the early days of GitHub, I've wanted to create a different kind of
 business. One that was [Optimized for
-Happiness](http://tom.preston-werner.com/2010/10/18/optimize-for-happiness.html)
+Happiness](https://tom.preston-werner.com/2010/10/18/optimize-for-happiness.html)
 and built atop a [Framework of
 Happiness](https://www.youtube.com/watch?v=i0FzgvYxdvk). One where great people
 could work on hard problems together to create unbelievably good products. I
@@ -68,7 +68,7 @@ I'm telling you this because I think stealth mode is bullshit and if you feel
 the same way I do about immersive computing then I want to talk with you about
 it. For the next few months I'm going to be living in Manhattan. My wife,
 Theresa, is currently participating in Techstars NYC as their very first
-nonprofit. Her startup, [The Omakase Charity](https://omakasecharity.org/),
+nonprofit. Her startup, [The Omakase Charity](https://web.archive.org/web/20140421213733/https://omakasecharity.org/),
 helps donors learn about and support nonprofits that are changing the world with
 technology. She's one of the strongest and most thoughtful women I know, and I'm
 hoping to help her succeed with her mission while I'm here.

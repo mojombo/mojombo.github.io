@@ -8,11 +8,11 @@ title: TomDoc - Reasonable Ruby Documentation
 
 <p class="meta">11 May 2016 - San Francisco</p>
 
-[RDoc](http://rdoc.rubyforge.org) is an abomination. It's ugly to read in plain
+[RDoc](https://web.archive.org/web/20100515143741/http://rdoc.rubyforge.org:80/) is an abomination. It's ugly to read in plain
 text, requires the use of the inane :nodoc: tag to prevent private method
 documentation from showing up in final rendering, and does nothing to encourage
 complete or unambiguous documentation of classes, methods, or parameters.
-[YARD](http://yardoc.org) is much better but goes too far in the other direction
+[YARD](https://yardoc.org/) is much better but goes too far in the other direction
 (and still doesn't look good in plain text). Providing an explicit way to
 specify parameters and types is great, but having to remember a bunch of strict
 tag names in order to be compliant is not a good way to encourage coders to
@@ -72,7 +72,7 @@ denote that something is public, all you have to do is preface the main
 description with "Public:". By forcing you to explicitly state that a class or
 method is intended for public consumption, a deliberate and thoughtful Public
 API is automatically constructed that can inform disciplined version changes
-according to the tenets of [Semantic Versioning](http://semver.org). In
+according to the tenets of [Semantic Versioning](https://semver.org/). In
 addition, the prominent display of "Public" in a method description ensures that
 developers are made aware of the sensitive nature of the method and do not
 carelessly change the signature of something in the Public API.
@@ -98,4 +98,4 @@ TomDoc is still a rough specification so I'm initially releasing it as 0.9.0.
 Over the coming months I'll make any necessary changes to address user concerns
 and release a 1.0.0 version once things have stabilized. If you'd like to
 suggest changes, please open an issue on the [TomDoc GitHub
-repository](http://github.com/mojombo/tomdoc).
+repository](https://github.com/mojombo/tomdoc).
