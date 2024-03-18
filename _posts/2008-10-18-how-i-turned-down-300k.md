@@ -17,7 +17,7 @@ attach to pretty much anything. ICHR was a semi-private meeting of like minded
 Ruby Hackers that generally and willingly devolved into late night drinking
 sessions. Normally these nights would fade away like my hangover the next
 morning, but this night was different. This was the night that
-[GitHub](http://github.com/) was born.
+[GitHub](https://github.com/) was born.
 
 I think I was sitting at the booth alone because I'd just ordered a fresh Fat
 Tire and needed a short break from the socializing that was happening over at
@@ -27,7 +27,7 @@ classify Chris and I as "friends" at the time. We knew each other through Ruby
 meetups and conferences, but only casually. Like a mutual "hey, I think your
 code is awesome" kind of thing. I'm not sure what made me do it, but I gestured
 him over to the booth and said "dude, check this out." About a week earlier I'd
-started work on a project called [Grit](http://github.com/mojombo/grit) that
+started work on a project called [Grit](https://github.com/mojombo/grit) that
 allowed me to access Git repositories in an object oriented manner via Ruby
 code. Chris was one of only a handful of Rubyists at the time that was starting
 to become serious about Git. He sat down and I started showing him what I had.
@@ -46,7 +46,7 @@ sounded cool.
 Remember those amazing few minutes in Karate Kid where Daniel is training to
 become a martial arts expert? Remember the music? Well, you should probably go
 buy and listen to [You're The
-Best](http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?i=260417864&id=260417040&s=143441)
+Best](https://web.archive.org/web/20100106214000/http://phobos.apple.com:80/WebObjects/MZStore.woa/wa/viewAlbum?i=260417864&id=260417040&s=143441)
 by Joe Esposito in iTunes because I'm about to hit you with a montage.
 
 For the next three months Chris and I spent ridiculous hours planning and coding
