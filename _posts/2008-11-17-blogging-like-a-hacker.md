@@ -54,7 +54,7 @@ out a complete, static website suitable for serving with Apache or your favorite
 web server. If you're reading this on the website
 (http://tom.preston-werner.com), you're seeing a Jekyll generated blog!
 
-To understand how this all works, open up my [TPW](http://github.com/mojombo/tpw)
+To understand how this all works, open up my [TPW](https://github.com/mojombo/tpw)
 repo in a new browser window. I'll be referencing the code there.
 
 Take a look at
@@ -63,7 +63,7 @@ represents the homepage of the site. At the top of the file is a chunk of YAML
 that contains metadata about the file. This data tells Jekyll what layout to
 give the file, what the page's title should be, etc. In this case, I specify
 that the "default" template should be used. You can find the layout files in the
-[_layouts](http://github.com/mojombo/tpw/tree/master/_layouts) directory. If you
+[_layouts](https://github.com/mojombo/tpw/tree/master/_layouts) directory. If you
 open
 [default.html](http://github.com/mojombo/tpw/tree/master/_layouts/default.html)
 you can see that the homepage is constructed by wrapping index.html with this
@@ -78,7 +78,7 @@ can be found in <code>site.posts</code>. Each post, in turn, contains various
 fields such as <code>title</code> and <code>date</code>.
 
 Jekyll gets the list of blog posts by parsing the files in the
-[_posts](http://github.com/mojombo/tpw/tree/master/_posts) directory. Each post's
+[_posts](https://github.com/mojombo/tpw/tree/master/_posts) directory. Each post's
 filename contains the publishing date and slug (what shows up in the URL) that
 the final HTML file should have. Open up the file corresponding to this blog
 post:

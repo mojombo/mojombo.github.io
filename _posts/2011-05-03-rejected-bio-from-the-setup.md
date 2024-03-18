@@ -9,9 +9,9 @@ title: Rejected Bio from The Setup
 <p class="meta">03 May 2011 - San Francisco</p>
 
 Yesterday, [the autobiographical post I wrote for The
-Setup](http://tom.preston-werner.usesthis.com/) went live. I wrote that post
+Setup](https://web.archive.org/web/20110507045436/http://tom.preston-werner.usesthis.com:80/) went live. I wrote that post
 over a year ago and then entered into an epic battle with
-[@waferbaby](http://twitter.com/#!/waferbaby) about the length of my "Who are
+[@waferbaby](https://twitter.com/#!/waferbaby) about the length of my "Who are
 you, and what do you do?" section. He said it was too long. I said it could
 not be shortened. And so the post sat for a year, collecting dust, neither of
 us prepared to back down.
@@ -102,7 +102,7 @@ employee with a big retention bonus and give up GitHub or turn down
 the Microsoft money and quit Powerset to work on GitHub full-time. You
 can read more about this saga in my blog post entitled [How I Turned
 Down $300,000 from Microsoft to go Full-Time on
-GitHub](http://tom.preston-werner.com/2008/10/18/how-i-turned-down-300k.html).
+GitHub](https://tom.preston-werner.com/2008/10/18/how-i-turned-down-300k.html).
 I think I made the right decision.
 
 Today GitHub has twenty-nine employees and more than 730,000 users with over

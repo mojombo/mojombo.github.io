@@ -10,7 +10,7 @@ title: Looking back on Selling Gravatar to Automattic
 
 For an entrepreneur, the line between horrible mistake and runaway success can
 be so thin that even Kate Moss would be envious. I lived with
-[Gravatar](http://gravatar.com/) for nearly four years before that line even
+[Gravatar](https://gravatar.com/) for nearly four years before that line even
 became thick enough to measure.
 
 As it's become one of my favorite parables, I'll save the details of how I came
@@ -87,7 +87,7 @@ to covering that cost.
 At some point early in the development of G2, Toni Schneider, the CEO of
 Automattic (the company behind WordPress.com and Akismet) contacted me after
 hearing my [interview about the future of
-Gravatar](http://blog.gravatar.com/2007/10/18/automattic-gravatar/) on the
+Gravatar](https://blog.gravatar.com/2007/10/18/automattic-gravatar/) on the
 WordPress podcast. This was exciting news! How perfect a fit would it be for
 Gravatar to be bought by Automattic? I was already planning a trip up to San
 Francisco to meet with the Powerset guys, so the timing worked out perfectly for

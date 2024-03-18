@@ -439,13 +439,13 @@ and in times of crisis, it will save the day.
 Here are some resources that you should follow as your next step. Now, go, and
 become a Git master!
 
-* [Learn Git](http://learn.github.com/)
-* [Git Community Book](http://book.git-scm.com/)
+* [Learn Git](https://web.archive.org/web/20090422073428/http://learn.github.com:80/)
+* [Git Community Book](https://book.git-scm.com/)
 * [Git Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/)
 
 --
 
-[Discuss this post on Hacker News](http://news.ycombinator.com/item?id=615308)
+[Discuss this post on Hacker News](https://news.ycombinator.com/item?id=615308)
 
 <a rel="license"
 href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img alt="Creative

@@ -37,7 +37,7 @@ zero for the spread of Git adoption in the Ruby community and beyond.
 
 Back then, the Git landscape was pretty barren. Git had only recently become
 usable by normal people with the 1.5 release. As for Git hosting, there was
-really only [repo.or.cz](http://repo.or.cz/), which felt to me very limited,
+really only [repo.or.cz](https://repo.or.cz/), which felt to me very limited,
 clumsy, and poorly designed. There were no commercial Git hosting options
 whatsoever. Despite this, people were starting to talk about Git at the Ruby
 meetups. About how awesome it was. But something was amiss. Git was supposed to
@@ -247,4 +247,4 @@ But open sourcing it would mean that
 today. I intend to write a follow up post on our open source philosophy at
 GitHub in the near future. I'm sure the suspense is killing you!</b>
 
-[Discuss this post on Hacker News](http://news.ycombinator.com/item?id=2384320)
+[Discuss this post on Hacker News](https://news.ycombinator.com/item?id=2384320)
