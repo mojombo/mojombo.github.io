@@ -34,4 +34,4 @@ Consider the process of writing the Readme for your project as the true act of c
 
 --
 
-[Discuss this post on Hacker News](http://news.ycombinator.com/item?id=1627246)
+[Discuss this post on Hacker News](https://news.ycombinator.com/item?id=1627246)
